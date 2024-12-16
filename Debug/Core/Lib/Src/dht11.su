@@ -1,0 +1,7 @@
+../Core/Lib/Src/dht11.c:34:6:init_dht11	24	static
+../Core/Lib/Src/dht11.c:41:9:isDHTBusy	4	static
+../Core/Lib/Src/dht11.c:45:9:isDHTInit	4	static
+../Core/Lib/Src/dht11.c:74:6:set_dht11_gpio_mode	40	static
+../Core/Lib/Src/dht11.c:101:9:readDHT11	24	static,ignoring_inline_asm
+../Core/Lib/Src/dht11.c:343:7:getCurrentDHTTemper	4	static
+../Core/Lib/Src/dht11.c:347:7:getCurrentDHTHud	4	static

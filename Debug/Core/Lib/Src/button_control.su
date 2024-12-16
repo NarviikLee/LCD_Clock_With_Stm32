@@ -1,0 +1,4 @@
+../Core/Lib/Src/button_control.c:18:6:main_Check	16	static
+../Core/Lib/Src/button_control.c:71:6:sel_Pos_control	8	static
+../Core/Lib/Src/button_control.c:98:6:sub_Menu	8	static
+../Core/Lib/Src/button_control.c:109:6:judge_timer	8	static

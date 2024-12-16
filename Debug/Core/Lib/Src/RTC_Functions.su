@@ -1,0 +1,6 @@
+../Core/Lib/Src/RTC_Functions.c:18:6:init_rtc	16	static
+../Core/Lib/Src/RTC_Functions.c:22:5:check_RTC	24	static
+../Core/Lib/Src/RTC_Functions.c:51:6:get_Alarm	24	static
+../Core/Lib/Src/RTC_Functions.c:64:6:set_Alarm	16	static
+../Core/Lib/Src/RTC_Functions.c:72:6:BackupTimeToRTC	24	static
+../Core/Lib/Src/RTC_Functions.c:81:8:RestoreTimeFromRTC	40	static

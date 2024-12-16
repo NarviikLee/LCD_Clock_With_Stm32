@@ -1,0 +1,2 @@
+../Core/Src/show_clock.c:12:6:init_clock	8	static
+../Core/Src/show_clock.c:22:6:update_clock	16	static

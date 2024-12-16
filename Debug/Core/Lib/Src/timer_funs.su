@@ -1,0 +1,11 @@
+../Core/Lib/Src/timer_funs.c:17:6:init_timer_funs	8	static
+../Core/Lib/Src/timer_funs.c:24:6:update_clock_value	8	static
+../Core/Lib/Src/timer_funs.c:33:6:set_tm_strut	24	static
+../Core/Lib/Src/timer_funs.c:43:6:get_RTC_Time_t	8	static
+../Core/Lib/Src/timer_funs.c:47:6:set_RTC_Time_t	8	static
+../Core/Lib/Src/timer_funs.c:51:6:convert_time_t	8	static
+../Core/Lib/Src/timer_funs.c:55:6:convert_tm	16	static
+../Core/Lib/Src/timer_funs.c:59:6:set_struct_tm	24	static
+../Core/Lib/Src/timer_funs.c:62:11:get_struct_tm	24	static
+../Core/Lib/Src/timer_funs.c:66:6:set_time_t	8	static
+../Core/Lib/Src/timer_funs.c:73:8:get_time_t	4	static
