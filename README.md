@@ -38,3 +38,4 @@
 - [SSD1306_HAL_DRIVER](https://github.com/SL-RU/stm32libs/tree/master)
 - [DHT11 HAL_DRIVER](https://github.com/mesutkilic/DHT11-STM32-Library)
 - [오제이 튜브 임베디드 영상 강의](https://www.youtube.com/playlist?list=PLz--ENLG_8TNjRg1OtyFBvUyV4PHaKwmu)
+- [아날로그 핀 설정](https://m.blog.naver.com/sinbong3/222072690691)
