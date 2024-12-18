@@ -1,7 +1,13 @@
-# STM32기반 LCD 시계
+# STM32기반 LCD 디스플레이 시계
+
+
 ## 설명
 2024년 6월 부터 9월까지 이직을 준비하면서 진행한 개인 프로젝트
+
+
 ## 사용 제품
+
+
 ### 보드
 
 ![보드그룹화_사진](https://github.com/user-attachments/assets/936379c0-c5d3-48db-a121-b4015b2d927f)
@@ -23,3 +29,12 @@
 ### 2. 알람 기능
 ### 3. 타이머 기능
 ### 4. 날짜 및 시간 변경 기능
+
+
+
+
+## 참고 자료
+
+- [SSD1306_HAL_DRIVER](https://github.com/SL-RU/stm32libs/tree/master)
+- [DHT11 HAL_DRIVER](https://github.com/mesutkilic/DHT11-STM32-Library)
+- [오제이 튜브 임베디드 영상 강의](https://www.youtube.com/playlist?list=PLz--ENLG_8TNjRg1OtyFBvUyV4PHaKwmu)
