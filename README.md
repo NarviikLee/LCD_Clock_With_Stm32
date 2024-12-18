@@ -1,2 +1,25 @@
-This is My Personal Project on 2024
-### 제목
+# STM32기반 LCD 시계
+## 설명
+2024년 6월 부터 9월까지 이직을 준비하면서 진행한 개인 프로젝트
+## 사용 제품
+### 보드
+
+![보드그룹화_사진](https://github.com/user-attachments/assets/936379c0-c5d3-48db-a121-b4015b2d927f)
+
+
+### 사용 모듈
+
+![사용_모듈](https://github.com/user-attachments/assets/b9a6909c-0db3-49e7-b6f0-fa67872456c5)
+
+
+### 기타 부품
+
+![기타부품](https://github.com/user-attachments/assets/5b4a4c84-79b7-4921-be3f-e18c5f8436e6)
+
+
+## 구현 기능
+
+### 1. 시간 및 온 습도 디스플레이
+### 2. 알람 기능
+### 3. 타이머 기능
+### 4. 날짜 및 시간 변경 기능
