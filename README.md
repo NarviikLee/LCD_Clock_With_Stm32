@@ -2,7 +2,11 @@
 
 
 ## 설명
-2024년 6월부터 9월까지 진행한 STM기본 기능 결합 테스트 프로젝트
+2024년 6월부터 9월까지 진행한 STM 기반 개인 프로젝트로 임베디드 영상 강의에서 배운 점들을 어떻게 사용해볼까 고민 중
+
+
+어머니께서 소파에서 듣고 계시는 LCD 디스플레이 라디오를 보고 스스로 만들어 보자라는 막연한 생각으로 진행한 프로젝트 입니다.
+
 
 
 ## 사용 제품
@@ -17,7 +21,14 @@
 ![기타부품](https://github.com/user-attachments/assets/5b4a4c84-79b7-4921-be3f-e18c5f8436e6)
 
 
-## CUBEIDE 설정
+## 사용 GPIO 정보
+
+
+![사용_PINMAP](https://github.com/user-attachments/assets/2f230065-4447-43e0-a4dd-ef5cd405e776)
+
+
+
+## STM32CubeIDE 설정
 
 
 ![CLOCK_GPIO_설정](https://github.com/user-attachments/assets/03a5f8ba-77f3-4d87-8d2e-c407ccdb8c7c)
@@ -27,6 +38,7 @@
 
 
 ![기타설정](https://github.com/user-attachments/assets/dd709b76-6012-4a52-bdb3-c7dd5fd9579a)
+
 
 
 
