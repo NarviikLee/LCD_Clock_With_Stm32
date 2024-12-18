@@ -17,6 +17,19 @@
 ![기타부품](https://github.com/user-attachments/assets/5b4a4c84-79b7-4921-be3f-e18c5f8436e6)
 
 
+## CUBEIDE 설정
+
+
+![CLOCK_GPIO_설정](https://github.com/user-attachments/assets/03a5f8ba-77f3-4d87-8d2e-c407ccdb8c7c)
+
+
+![타이머_관련_세팅](https://github.com/user-attachments/assets/f3de5be4-b863-47bc-ab58-6ebb60e6d112)
+
+
+![기타설정](https://github.com/user-attachments/assets/dd709b76-6012-4a52-bdb3-c7dd5fd9579a)
+
+
+
 ## 구현 기능
 
 ### 1. 시간 및 온 습도 디스플레이
