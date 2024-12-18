@@ -8,17 +8,11 @@
 ## 사용 제품
 
 
-### 보드
-
 ![보드그룹화_사진](https://github.com/user-attachments/assets/936379c0-c5d3-48db-a121-b4015b2d927f)
 
 
-### 사용 모듈
-
 ![사용_모듈](https://github.com/user-attachments/assets/b9a6909c-0db3-49e7-b6f0-fa67872456c5)
 
-
-### 기타 부품
 
 ![기타부품](https://github.com/user-attachments/assets/5b4a4c84-79b7-4921-be3f-e18c5f8436e6)
 
