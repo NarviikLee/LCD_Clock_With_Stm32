@@ -10,13 +10,13 @@
 #include "esp32_dht11.h"
 
 static int alarm_check = 0;
+
 void start_Boozer(int mode){
 	toggleScreen();
 	if(mode ==1){
 		setTimerState(0);
 	}
 	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_3, htim4.Init.Period);
-	setCompleted(mode);
 }
 
 void end_Boozer(int mode){

@@ -35,34 +35,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Timer_Clock_Stm
+BUILD_ARTIFACT_NAME := LCD_Clock_Project
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-Timer_Clock_Stm.elf \
+LCD_Clock_Project.elf \
 
 MAP_FILES += \
-Timer_Clock_Stm.map \
+LCD_Clock_Project.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-Timer_Clock_Stm.list \
+LCD_Clock_Project.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: Timer_Clock_Stm.elf secondary-outputs
+main-build: LCD_Clock_Project.elf secondary-outputs
 
 # Tool invocations
-Timer_Clock_Stm.elf Timer_Clock_Stm.map: $(OBJS) $(USER_OBJS) D:\STM32CubeIDE_1.9.0\Stm32_WorkSpace\OJ_CODING_EMBEDED\Part4\Timer_Clock_Stm\STM32F722ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Timer_Clock_Stm.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\STM32CubeIDE_1.9.0\Stm32_WorkSpace\OJ_CODING_EMBEDED\Part4\Timer_Clock_Stm\STM32F722ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Timer_Clock_Stm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+LCD_Clock_Project.elf LCD_Clock_Project.map: $(OBJS) $(USER_OBJS) D:\STM32CubeIDE_1.9.0\Stm32_WorkSpace\OJ_CODING_EMBEDED\Part4\Timer_Clock_Stm\STM32F722ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "LCD_Clock_Project.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\STM32CubeIDE_1.9.0\Stm32_WorkSpace\OJ_CODING_EMBEDED\Part4\Timer_Clock_Stm\STM32F722ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Clock_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -71,14 +71,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Timer_Clock_Stm.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Timer_Clock_Stm.list"
+LCD_Clock_Project.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "LCD_Clock_Project.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Timer_Clock_Stm.elf Timer_Clock_Stm.list Timer_Clock_Stm.map default.size.stdout
+	-$(RM) LCD_Clock_Project.elf LCD_Clock_Project.list LCD_Clock_Project.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

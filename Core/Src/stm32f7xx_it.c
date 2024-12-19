@@ -243,8 +243,8 @@ void TIM3_IRQHandler(void)
 	  Timer_Second--;
 	  update_timer();
 	  if(Timer_Second == 0 && getTimerState()==1){
-		  alert_mode = 1;
-		  __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_3, htim4.Init.Period);
+		  setTimerCompleted(1);
+//		  __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_3, htim4.Init.Period);
 		  start_Boozer(1);
 	  }
   }

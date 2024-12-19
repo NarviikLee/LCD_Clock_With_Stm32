@@ -77,6 +77,7 @@ void setAlarmCompleted(int completed){
 
 void setCompleted(int mode){
 	if(mode == 1){
+		setTimerState(0);
 		setTimerCompleted(0);
 	}else{
 		setAlarmCompleted(0);
