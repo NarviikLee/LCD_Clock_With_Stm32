@@ -2,10 +2,10 @@
 
 
 ## 설명
-2024년 6월부터 9월까지 진행한 STM 기반 개인 프로젝트로 임베디드 영상 강의에서 배운 점들을 어떻게 사용해볼까 고민 중
+STM 기반 개인 프로젝트로 임베디드 영상 강의에서 배운 점들을 어떻게 사용해볼까 고민 중
 
 
-어머니께서 소파에서 듣고 계시는 LCD 디스플레이 라디오를 보고 스스로 만들어 보자라는 막연한 생각으로 진행한 프로젝트 입니다.
+LCD 디스플레이 라디오를 보고 스스로 만들어 보자라는 막연한 생각으로 진행한 프로젝트 입니다.
 
 
 
@@ -45,10 +45,43 @@
 ## 구현 기능
 
 ### 1. 시간 및 온 습도 디스플레이
+
+#### - 전원 재 공급시 이전 타임 유지(내부 RTC 레지스터사용)
+https://github.com/user-attachments/assets/dc62d802-92e9-4cf7-9234-1bfa38218090
+#### - 메뉴 변경 및 메뉴 이동(보드 자체 버튼, 외부 버튼 인터럽트 이용)
+https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e
+
 ### 2. 알람 기능
+
+
+#### - 알람 시간 설정
+https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958
+
+
+#### - 알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)
+https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f
+
+
+
 ### 3. 타이머 기능
+
+
+#### - 타이머 설정 및 타이머 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)
+https://github.com/user-attachments/assets/a1fedf04-4a7d-40f4-89ef-b98247bda895
+
+
+
 ### 4. 날짜 및 시간 변경 기능
+
+#### - 초기에 날짜 및 시간 설정(time.h 라이브러리 기반 날짜 자동 업데이트)
+
+https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
+
+
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
+
+#### - 하루에 특정시간(0시, 6시, 12시, 18시)에 온습도 데이터 서버 전송 및 DB 업데이트)
+https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4
 
 
 
