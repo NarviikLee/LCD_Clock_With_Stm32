@@ -5,9 +5,13 @@
 STM 기반 개인 프로젝트로 임베디드 영상 강의에서 배운 점들을 어떻게 사용해볼까 고민 중
 
 
-LCD 디스플레이 라디오를 보고 스스로 만들어 보자라는 막연한 생각으로 진행한 프로젝트 입니다.
+LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연한 생각으로 진행한 프로젝트 입니다.
 
+## 개발 기간
 
+2024.07 ~ 2024.10.31(기본 구성)
+
+2024.11 ~ (유지보수 및 추가 기능 기획중... )
 
 ## 사용 제품
 
@@ -89,5 +93,7 @@ https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4
 
 - [SSD1306_HAL_DRIVER](https://github.com/SL-RU/stm32libs/tree/master)
 - [DHT11 HAL_DRIVER](https://github.com/mesutkilic/DHT11-STM32-Library)
-- [오제이 튜브 임베디드 영상 강의](https://www.youtube.com/playlist?list=PLz--ENLG_8TNjRg1OtyFBvUyV4PHaKwmu)
 - [아날로그 핀 설정](https://m.blog.naver.com/sinbong3/222072690691)
+- [Python FLASK_MYSQL_연동](https://minha0220.tistory.com/75#google_vignette)
+- [ESP32_STM32_WIFI_BRIDGE 관련 블로그](https://with-rl.tistory.com/entry/ESP32-STM32%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-WiFi-Serial-Bridge-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- [오제이 튜브 임베디드 영상 강의](https://www.youtube.com/playlist?list=PLz--ENLG_8TNjRg1OtyFBvUyV4PHaKwmu)
