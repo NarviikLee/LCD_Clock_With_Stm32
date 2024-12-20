@@ -15,14 +15,14 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 ## 사용 제품
 
+![ESP32-CAM-Module](https://github.com/user-attachments/assets/a8a1bf2f-3fd1-45b0-aac1-479ce70e7ba7) |![NUCLEO_F722ZE](https://github.com/user-attachments/assets/e165a392-7500-4f10-88c3-7ed9bf41b001)
+--- | --- | 
 
-![보드그룹화_사진](https://github.com/user-attachments/assets/936379c0-c5d3-48db-a121-b4015b2d927f)
+![피에조](https://github.com/user-attachments/assets/e98b5884-a1f2-49e6-890c-c7bb07082b03) |![온습도센서](https://github.com/user-attachments/assets/bf8eafba-9f6e-4409-960d-a6cd4a211f31) |![SSD1306](https://github.com/user-attachments/assets/288146fd-6f26-451b-b55d-9ac311f70ab5) 
+--- | --- | --- |
 
-
-![사용_모듈](https://github.com/user-attachments/assets/fb7488c1-16f5-43ae-ba2f-76ebc3f4b71c)
-
-
-![기타부품](https://github.com/user-attachments/assets/5b4a4c84-79b7-4921-be3f-e18c5f8436e6)
+![버튼](https://github.com/user-attachments/assets/13e198e9-eb80-4eab-b7a9-bc1a51b1407f) |![가변저항](https://github.com/user-attachments/assets/630d87b7-6dbf-4302-a552-70bf671d739f)
+--- | --- | 
 
 
 ## 사용 GPIO 정보
@@ -35,13 +35,16 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ## STM32CubeIDE 설정
 
 
-![CLOCK_GPIO_설정](https://github.com/user-attachments/assets/03a5f8ba-77f3-4d87-8d2e-c407ccdb8c7c)
+![GPIO_PIN](https://github.com/user-attachments/assets/ecdb08d8-956b-407d-bfcf-a582590b386e) |![CLOCK_설정](https://github.com/user-attachments/assets/540b0f52-3e21-40c1-893f-d45be0342469)
+--- | --- | 
 
 
-![타이머_관련_세팅](https://github.com/user-attachments/assets/f3de5be4-b863-47bc-ab58-6ebb60e6d112)
+![1초타이머_설정](https://github.com/user-attachments/assets/c77c71bb-fede-4bad-ad2e-2dce11449d02) |![Boozer_PWM](https://github.com/user-attachments/assets/f00e6a1e-ff37-4812-85ae-f03b6a644cd0) |![DHT_데이터취득_타이머](https://github.com/user-attachments/assets/30232928-8692-40dc-a19a-f5fd9226deed)
+--- | --- | --- |
 
 
-![기타설정](https://github.com/user-attachments/assets/dd709b76-6012-4a52-bdb3-c7dd5fd9579a)
+![가변저항_ADC](https://github.com/user-attachments/assets/5037dfad-db5e-47bd-bd4d-9cc75eb0d150) |![SSD1306_I2C](https://github.com/user-attachments/assets/ffb08fb9-8182-4ede-9ffb-cfb28f4c4bf2) |![RTC활성화](https://github.com/user-attachments/assets/b6df69d1-16f4-4e78-b36b-d9b99a624411) |![ESP32_USART](https://github.com/user-attachments/assets/53d62c2f-3bbb-465d-9892-aa79f5327f47)
+--- | --- | --- | --- | 
 
 
 
