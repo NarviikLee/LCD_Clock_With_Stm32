@@ -50,21 +50,16 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 ### 1. 시간 및 온 습도 디스플레이
 
-#### - 전원 재 공급시 이전 타임 유지(내부 RTC 레지스터사용)
-https://github.com/user-attachments/assets/dc62d802-92e9-4cf7-9234-1bfa38218090
 
-#### - 메뉴 변경 및 메뉴 이동(보드 자체 버튼, 외부 버튼 인터럽트 이용)
-https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e
+| <div align="center"><video src="https://github.com/user-attachments/assets/dc62d802-92e9-4cf7-9234-1bfa38218090" width="200" controls></video><br>실시간 시간 변화 및 이전 시간 유지(내부 RTC 레지스터 사용)</div> | <div align="center"><video src="https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e" width="200" controls></video><br>메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)</div> |
+|---|---|
+
 
 ### 2. 알람 기능
 
 
-#### - 알람 시간 설정
-https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958
-
-
-#### - 알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)
-https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f
+| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video><br>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video><br>알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)</div> |
+|---|---|
 
 
 
