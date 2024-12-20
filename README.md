@@ -26,9 +26,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 ## 사용 GPIO 정보
 
-
-![사용_PINMAP](https://github.com/user-attachments/assets/2f230065-4447-43e0-a4dd-ef5cd405e776)
-
+![사용_PINMAP](https://github.com/user-attachments/assets/63823b5d-786e-4c94-a161-4494b681341f)
 
 
 ## STM32CubeIDE 설정
