@@ -41,6 +41,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 --- | --- |
 
 
+
 ![1초타이머_설정](https://github.com/user-attachments/assets/c77c71bb-fede-4bad-ad2e-2dce11449d02) |![Boozer_PWM](https://github.com/user-attachments/assets/f00e6a1e-ff37-4812-85ae-f03b6a644cd0) |![DHT_데이터취득_타이머](https://github.com/user-attachments/assets/30232928-8692-40dc-a19a-f5fd9226deed)
 --- | --- | --- |
 
@@ -56,7 +57,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ### 1. 시간 및 온 습도 디스플레이
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/dc62d802-92e9-4cf7-9234-1bfa38218090" width="200" controls></video><br>실시간 시간 변화 및 이전 시간 유지(내부 RTC 레지스터 사용)</div> | <div align="center"><video src="https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e" width="200" controls></video><br>메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)</div> |
+| <div align="center"><video src="https://github.com/user-attachments/assets/00f38aab-9c69-441e-afb8-43a4f67ad1b1" width="200" controls></video><br>실시간 시간 변화 및 이전 시간 유지(RTC_DS1302 사용)</div> | <div align="center"><video src="https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e" width="200" controls></video><br>메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)</div> |
 |---|---|
 
 
