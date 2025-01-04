@@ -75,6 +75,7 @@ void processTimerReview() {
 void processAlarmChangeCheck() {
 	check_alarm_change_lcd();
     if (handleButtonPress(&a_Process_case, 1)== true) {
+    	set_Alarm_flag(0);
         setAlarmState(0);
         toggleScreen();
     }
@@ -132,8 +133,8 @@ void processModifyCheck(int *input_Process_case){
 
 void processModifyFinalization(){
 	set_tm_strut(getnYear(),getnMonth(),getnDay()+1,clock_value[2],clock_value[1]);
-	set_RTC_Time_t();
-	default_second = 0;
+	set_DS1302_Time_s();
+	device_second = 0;
 	setMode(-1);
 	m_Process_case = 0;
 }

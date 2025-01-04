@@ -23,11 +23,12 @@ int clock_value[3] = {0,25,20};
 int timer_value[3] = {0,0,0};
 // Alarm Time Value
 int alarm_value[3] = {0,0,0};
-int default_second = 0;
+
+int device_second = 0;
+
 int Timer_Second = 0;
  // interrupt count(second) and this integer be used update Clock
 uint8_t alert_mode = 0;
 
-time_t rawtime = 0;
-
+//time_t rawtime = 0;
  // mode 0 is normal_Clock, 1 = Timer Mode, 2 = config Clock

@@ -41,6 +41,7 @@ Core/Src/stm32f7xx_it.o: ../Core/Src/stm32f7xx_it.c ../Core/Inc/main.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/Potentiometer.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_funs.h \
+ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/dht11.h \
  ../Core/Inc/alert_fs.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/lcd_menu.h \
@@ -92,6 +93,7 @@ Core/Src/stm32f7xx_it.o: ../Core/Src/stm32f7xx_it.c ../Core/Inc/main.h \
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/Potentiometer.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_funs.h:
+D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/dht11.h:
 ../Core/Inc/alert_fs.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/lcd_menu.h:

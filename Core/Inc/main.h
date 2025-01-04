@@ -84,6 +84,12 @@ void Error_Handler(void);
 #define STLK_RX_GPIO_Port GPIOD
 #define STLK_TX_Pin GPIO_PIN_9
 #define STLK_TX_GPIO_Port GPIOD
+#define DS1302_RST_Pin GPIO_PIN_11
+#define DS1302_RST_GPIO_Port GPIOD
+#define DS1302_DATA_Pin GPIO_PIN_12
+#define DS1302_DATA_GPIO_Port GPIOD
+#define DS1302_SCLK_Pin GPIO_PIN_13
+#define DS1302_SCLK_GPIO_Port GPIOD
 #define USB_PowerSwitchOn_Pin GPIO_PIN_6
 #define USB_PowerSwitchOn_GPIO_Port GPIOG
 #define USB_OverCurrent_Pin GPIO_PIN_7

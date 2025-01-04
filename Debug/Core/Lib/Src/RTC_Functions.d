@@ -38,6 +38,7 @@ Core/Lib/Src/RTC_Functions.o: ../Core/Lib/Src/RTC_Functions.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
  ../Core/Inc/g_var.h ../Core/Inc/main.h \
+ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/RTC_Functions.h:
 ../Core/Inc/main.h:
@@ -80,4 +81,5 @@ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Co
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h:
 ../Core/Inc/g_var.h:
 ../Core/Inc/main.h:
+D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h:
