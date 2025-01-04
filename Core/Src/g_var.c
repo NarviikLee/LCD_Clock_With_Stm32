@@ -28,7 +28,7 @@ int device_second = 0;
 
 int Timer_Second = 0;
  // interrupt count(second) and this integer be used update Clock
-uint8_t alert_mode = 0;
+//uint8_t alert_mode = 0;
 
 //time_t rawtime = 0;
  // mode 0 is normal_Clock, 1 = Timer Mode, 2 = config Clock

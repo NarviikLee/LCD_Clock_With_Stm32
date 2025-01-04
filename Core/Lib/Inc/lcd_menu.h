@@ -15,7 +15,6 @@
 void opening();
 
 // Toggle Functions
-void startToggle();
 void toggleScreen();
 
 // UPDATE Data FUNCTIONS ON LCD
@@ -28,17 +27,17 @@ void print_Set_time();
 // MENU SELECT LCD
 void menuSelect();
 
-// TIMER On LCD
+// 타이머 및 알람 출력 LCD
 void timer_lcd();
 void timer_cancle_lcd();
 void alarm_lcd();
 
-// Setting Check LCD
+// 세팅 LCD 디스플레이 함수
 void n_timer_show();
 void n_alarm_show();
 void n_modify_show();
 
-// Check LCD
+// 최종 확인 LCD
 void check_timer_lcd();
 void check_alarm_lcd();
 void check_alarm_change_lcd();

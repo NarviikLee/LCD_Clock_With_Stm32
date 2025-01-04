@@ -16,11 +16,10 @@ void init_clock(void){
 	t->tm_mday = calender_value[2];
 	t->tm_hour = clock_value[2];
 	t->tm_min = clock_value[1];
-	rawtime = mktime(t);
 }
 
+// 시간 업데이트
 void update_clock(int second){
 	clock_value[0] = (int)second % 60;
 	clock_value[1] = (int)second/ 60;
-//	timer_value[2] = second_count / 3600;
 }

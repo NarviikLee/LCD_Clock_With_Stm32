@@ -24,7 +24,6 @@ void main_Check(){
 	// timer가 완료되면 가장 우선순위로 실행되게 해야함
 	if(getTimerCompleted() || getAlarmCompleted()){
 		Boozer_mode = getTimerCompleted() == 1 ? 1:(getAlarmCompleted())? 2:0;
-		// mode == 1 (Timer Lcd and Event), mode == 2 (Alarm LCd and Event)
 		if(Boozer_mode == 1){
 			timer_lcd();
 		}
@@ -50,11 +49,6 @@ void main_Check(){
 	}
 	if(cancel_btn){
 		cancel_btn = 0;
-		//if SubMenu or Normal Mode, Return to MenuSelect
-//		if((getMode()>0) || (getMode() < 0)){
-//			setMode(0);
-//			Pos = 0;
-//		}
 		if(mode < 0){
 			setMode(0);
 			Pos = 0;

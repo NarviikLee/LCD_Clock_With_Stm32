@@ -34,8 +34,6 @@
 
 
 #include "ssd1306.h"
-#include "fonts.h"
-#include "test.h"
 #include "lcd_menu.h"
 #include "timer_funs.h"
 #include "RTC_Functions.h"
@@ -94,14 +92,7 @@ static void MX_USART6_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-//static void update_test(void){
-//	char trans_string[20];
-//	if(select_btn){
-//		select_btn = 0;
-//		strcpy(trans_string,"Data_send");
-//		HAL_UART_Transmit(&huart6, (uint8_t *)trans_string, strlen(trans_string), 100);
-//	}
-//}
+
 /* USER CODE END 0 */
 
 /**
@@ -142,34 +133,37 @@ int main(void)
   MX_TIM6_Init();
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
-//  HAL_GPIO_WritePin(SOUND_OUT_GPIO_Port, SOUND_OUT_Pin, GPIO_PIN_RESET);
-  init_PotentioMeter(&hadc3);
-  ds1302_init();
-//  init_timer_funs();
-  SSD1306_Init();
-  init_dht11(&htim6, TEMP_DATA_GPIO_Port, TEMP_DATA_Pin);
-  HAL_TIM_Base_Start(&htim6);
-  HAL_TIM_Base_Start_IT(&htim3);
-  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
-//  get_DS1302_Time_s();
-  /* USER CODE END 2 */
 
+  // 가변저항 초기화
+  init_PotentioMeter(&hadc3);
+  // RTC 모듈 초기화
+  ds1302_init();
+  // LCD 초기화
+  SSD1306_Init();
+  // 온습도 센서 초기화
+  init_dht11(&htim6, TEMP_DATA_GPIO_Port, TEMP_DATA_Pin);
+  // 온습도 센서에 사용할 타이머 시작
+  HAL_TIM_Base_Start(&htim6);
+  // 1초 타이머 인터럽트 ON
+  HAL_TIM_Base_Start_IT(&htim3);
+  // 부저용 PWM 출력
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
+  /* USER CODE END 2 */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  // DS1302 시간 데이터 취득 및 알람 상태 확인
   opening();
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //Update Check Loops
-//	  check_adc_change();
-//	  update_test();
-	  // Main Loop
+
+	  // 온습도 데이터 취득
 	  readDHT11();
+	  // LCD 및 타이머 메인 루프
 	  main_Check();
-//	  send_esp32();
-//	  HAL_Delay(2000);
 
   }
   /* USER CODE END 3 */

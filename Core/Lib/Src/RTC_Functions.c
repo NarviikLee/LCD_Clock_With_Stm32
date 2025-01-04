@@ -34,5 +34,7 @@ void set_Alarm(int Hour, int Min){
 	set_Alarm_flag(1);
 	ds1302_write_ram(ALARM_HOUR, Hour);
 	ds1302_write_ram(ALARM_MIN, Min);
+	alarm_value[2] = Hour;
+	alarm_value[1] = Min;
 }
 
