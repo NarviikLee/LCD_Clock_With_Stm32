@@ -1,10 +1,5 @@
-Core/Lib/Src/lcd_menu.o: ../Core/Lib/Src/lcd_menu.c \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/lcd_menu.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ssd1306.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
- ../Core/Inc/stm32f7xx_hal_conf.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h \
+Core/Lib/Src/ds1302.o: ../Core/Lib/Src/ds1302.c \
+ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f722xx.h \
  ../Drivers/CMSIS/Include/core_cm7.h \
@@ -13,6 +8,10 @@ Core/Lib/Src/lcd_menu.o: ../Core/Lib/Src/lcd_menu.c \
  ../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../Drivers/CMSIS/Include/mpu_armv7.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
+ ../Core/Inc/stm32f7xx_hal_conf.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h \
@@ -37,22 +36,8 @@ Core/Lib/Src/lcd_menu.o: ../Core/Lib/Src/lcd_menu.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/fonts.h \
- ../Core/Inc/g_var.h ../Core/Inc/main.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h \
- ../Core/Inc/main.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/Potentiometer.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/RTC_Functions.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_funs.h \
- D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/dht11.h
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/lcd_menu.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ssd1306.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
-../Core/Inc/stm32f7xx_hal_conf.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h:
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h
+D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f722xx.h:
 ../Drivers/CMSIS/Include/core_cm7.h:
@@ -61,6 +46,10 @@ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Co
 ../Drivers/CMSIS/Include/cmsis_gcc.h:
 ../Drivers/CMSIS/Include/mpu_armv7.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
+../Core/Inc/stm32f7xx_hal_conf.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h:
@@ -86,13 +75,3 @@ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Co
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/fonts.h:
-../Core/Inc/g_var.h:
-../Core/Inc/main.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h:
-../Core/Inc/main.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/Potentiometer.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/RTC_Functions.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_funs.h:
-D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/dht11.h:

@@ -33,24 +33,19 @@ char *wday[] = { "SUN", "MON", "TUE", "WED",
 
 const char *menus[] = {" Cancel Timer"," Timer Mode"," Alarm Setting"," Clock Modify"};
 int prevousPos = -1;
-
 void opening(){
 	SSD1306_GotoXY(10,10);
-	if(check_RTC(2)){
+	int ck_alarm_flag=check_Alarm_FLAG();
+	if(ck_alarm_flag<1){
 		SSD1306_Puts("Alarm Not Set.. ", &Font_7x10, 1);
 	}else{
 		SSD1306_Puts("Alarm Set!! ", &Font_7x10, 1);
 		get_Alarm();
 	}
 	SSD1306_GotoXY(10,30);
-	if(check_RTC(1)){
-		SSD1306_Puts("Start_M is Modify", &Font_7x10, 1);
-		setMode(3);
-	}else{
-		init_timer_funs();
-		SSD1306_Puts("Start_M is Normal", &Font_7x10, 1);
-		// 여기서 clock 업데이트 및 RTC 업데이트 필요
-	}
+	init_timer_funs();
+	SSD1306_Puts("Start_M is Normal", &Font_7x10, 1);
+	// 여기서 clock 업데이트 및 RTC 업데이트 필요
 	SSD1306_UpdateScreen();
 	HAL_Delay(1000);
 	SSD1306_Clear();

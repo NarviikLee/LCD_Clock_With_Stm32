@@ -228,12 +228,12 @@ void TIM3_IRQHandler(void)
   int now_mode = getMode();
   // if now mode is Modify, Don't Increase Second..
   if(now_mode != 3){
-	  clock_value[0] = ++default_second;
+	  clock_value[0] = ++device_second;
   }
-  if(default_second >=60){
-	  default_second=0;
+  if(device_second >=60){
+	  device_second=0;
 	  set_time_t();
-	  clock_value[0]=default_second;
+	  clock_value[0]=device_second;
 	  if(getAlarmState()){
 		  check_Alarm();
 	  }
@@ -267,7 +267,7 @@ void EXTI15_10_IRQHandler(void)
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
   if((HAL_GetTick() - btn_time) > BUTTON_GAP){
 	  cancel_btn = HAL_GPIO_ReadPin(USER_Btn_GPIO_Port,USER_Btn_Pin);
-	  // Modeï¿½??????? ë©”ë‰´ ëª¨ë“œ?ï¿½ï¿½?ï¿½ï¿½ï¿½??????? ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ï¿½??????? ?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½ ï¿½????????ï¿½ï¿½ï¿½??????? ï¿½???????(0?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½)
+	  // Modeï¿???????? ë©”ë‰´ ëª¨ë“œ?ï¿½ï¿½?ï¿½ï¿½ï¿???????? ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ï¿???????? ?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½ ï¿?????????ï¿½ï¿½ï¿???????? ï¿????????(0?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½)
 	  if(getMode() >= 0){
 		  up_btn = !HAL_GPIO_ReadPin(UP_B_GPIO_Port,UP_B_Pin);
 		  down_btn = !HAL_GPIO_ReadPin(DOWN_B_GPIO_Port,DOWN_B_Pin);

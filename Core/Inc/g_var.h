@@ -25,7 +25,7 @@ extern int alarm_value[3];
 extern uint8_t alert_mode;
 
 extern int Timer_Second;
-extern int default_second;
+extern int device_second;
 
 extern time_t rawtime;
 

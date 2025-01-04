@@ -10,12 +10,15 @@
 #include "main.h"
 #include <time.h>
 #include "g_var.h"
+#include "ds1302.h"
 
-void init_rtc(RTC_HandleTypeDef * hrtc);
-
-int check_RTC(int mode);
+// DS1302 를 이용해서 알람 및 DS1302에 내장된 시간 데이터를 가져오거나 설정(modify, 보드 재부팅시 이전 시간가져오기)
+// 그리고
+int check_Alarm_FLAG();
+void set_Alarm_flag(int Flag);
 void get_Alarm();
 void set_Alarm(int Hour, int Min);
-void BackupTimeToRTC(time_t currentTime);
-time_t RestoreTimeFromRTC();
+
+
+
 #endif /* LIB_INC_RTC_FUNCTIONS_H_ */

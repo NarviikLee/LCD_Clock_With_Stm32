@@ -8,12 +8,15 @@
 #ifndef LIB_INC_TIMER_FUNS_H_
 #define LIB_INC_TIMER_FUNS_H_
 #include <time.h>
+#include "ds1302.h"
 #define minute_cnt 60
 
 void init_timer_funs();
 
-void get_RTC_Time_t();
-void set_RTC_Time_t();
+void set_static_Time_t();
+
+void get_DS1302_Time_s();
+void set_DS1302_Time_s();
 
 void convert_time_t();
 void convert_tm();

@@ -30,6 +30,8 @@
 #include "timer_mode.h"
 #include "button_control.h"
 #include "dht11.h"
+#include "ds1302.h"
+
 
 #include "ssd1306.h"
 #include "fonts.h"
@@ -142,15 +144,14 @@ int main(void)
   /* USER CODE BEGIN 2 */
 //  HAL_GPIO_WritePin(SOUND_OUT_GPIO_Port, SOUND_OUT_Pin, GPIO_PIN_RESET);
   init_PotentioMeter(&hadc3);
-  init_rtc(&hrtc);
+  ds1302_init();
 //  init_timer_funs();
-
   SSD1306_Init();
   init_dht11(&htim6, TEMP_DATA_GPIO_Port, TEMP_DATA_Pin);
   HAL_TIM_Base_Start(&htim6);
   HAL_TIM_Base_Start_IT(&htim3);
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
-
+//  get_DS1302_Time_s();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -628,6 +629,9 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOB, LD1_Pin|LD3_Pin|LD2_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOD, DS1302_RST_Pin|DS1302_DATA_Pin|DS1302_SCLK_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(USB_PowerSwitchOn_GPIO_Port, USB_PowerSwitchOn_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : USER_Btn_Pin */
@@ -655,6 +659,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : DS1302_RST_Pin DS1302_DATA_Pin DS1302_SCLK_Pin */
+  GPIO_InitStruct.Pin = DS1302_RST_Pin|DS1302_DATA_Pin|DS1302_SCLK_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
   /*Configure GPIO pin : USB_PowerSwitchOn_Pin */
   GPIO_InitStruct.Pin = USB_PowerSwitchOn_Pin;

@@ -2,6 +2,7 @@
 "./Core/Lib/Src/RTC_Functions.o"
 "./Core/Lib/Src/button_control.o"
 "./Core/Lib/Src/dht11.o"
+"./Core/Lib/Src/ds1302.o"
 "./Core/Lib/Src/esp32_dht11.o"
 "./Core/Lib/Src/fonts.o"
 "./Core/Lib/Src/lcd_menu.o"

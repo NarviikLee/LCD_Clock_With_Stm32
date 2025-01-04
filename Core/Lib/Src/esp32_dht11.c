@@ -10,7 +10,8 @@
 #define LIMIT_CNT 3
 
 extern UART_HandleTypeDef huart6;
-static char data_send[20];
+static char device_name[20] ="device_1";
+static char data_send[100];
 static int send_cnt = 1;
 
 void check_send(){
@@ -36,6 +37,6 @@ void set_send_cnt(int hour){
 void send_esp32(){
 	int temper = (int)getCurrentDHTTemper();
 	int hudmity = (int)getCurrentDHTHud();
-	sprintf(data_send,"%d,temp:%d,hud:%d\n",send_cnt,temper,hudmity);
+	sprintf(data_send,"index:%d,temp:%d,hud:%d,device_name:%49s\n",send_cnt,temper,hudmity,device_name);
 	HAL_UART_Transmit(&huart6, (uint8_t *)data_send, strlen(data_send), 100);
 }

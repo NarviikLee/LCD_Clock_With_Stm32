@@ -44,6 +44,7 @@ Core/Lib/Src/subContorl.o: ../Core/Lib/Src/subContorl.c \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/fonts.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_funs.h \
+ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h \
  D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/RTC_Functions.h
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/subControl.h:
 ../Core/Inc/main.h:
@@ -92,4 +93,5 @@ D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Co
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/fonts.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_mode.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/timer_funs.h:
+D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/ds1302.h:
 D:/STM32CubeIDE_1.9.0/Stm32_WorkSpace/OJ_CODING_EMBEDED/Part4/Timer_Clock_Stm/Core/Lib/Inc/RTC_Functions.h:
