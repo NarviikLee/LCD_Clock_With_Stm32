@@ -17,8 +17,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ![ESP32-CAM-Module](https://github.com/user-attachments/assets/a8a1bf2f-3fd1-45b0-aac1-479ce70e7ba7) |![NUCLEO_F722ZE](https://github.com/user-attachments/assets/e165a392-7500-4f10-88c3-7ed9bf41b001)
 --- | --- | 
 
-![피에조](https://github.com/user-attachments/assets/e98b5884-a1f2-49e6-890c-c7bb07082b03) |![온습도센서](https://github.com/user-attachments/assets/bf8eafba-9f6e-4409-960d-a6cd4a211f31) |![SSD1306](https://github.com/user-attachments/assets/288146fd-6f26-451b-b55d-9ac311f70ab5) |![RTC모듈](https://github.com/user-attachments/assets/e554964f-9c28-47a3-857c-b683421536c9)
-
+![피에조](https://github.com/user-attachments/assets/e98b5884-a1f2-49e6-890c-c7bb07082b03) |![온습도센서](https://github.com/user-attachments/assets/bf8eafba-9f6e-4409-960d-a6cd4a211f31) |![SSD1306](https://github.com/user-attachments/assets/288146fd-6f26-451b-b55d-9ac311f70ab5) |![RTC모듈](https://github.com/user-attachments/assets/3dacbdd2-9f24-4677-b390-783bd93f6abe)
 --- | --- | --- |  --- |
 
 ![버튼](https://github.com/user-attachments/assets/13e198e9-eb80-4eab-b7a9-bc1a51b1407f) |![가변저항](https://github.com/user-attachments/assets/630d87b7-6dbf-4302-a552-70bf671d739f)
