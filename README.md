@@ -87,7 +87,11 @@ https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
 
 #### - 하루에 특정시간(0시, 6시, 12시, 18시)에 온습도 데이터 서버 전송 및 DB 업데이트)
-https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4
+| <div align="center"><video src="https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4" width="200" controls></video><br>Mysql_데이터 업데이트</div> | <div align="center"><video src="https://github.com/user-attachments/assets/643c24d7-ad0f-40ee-8983-4c18007d529f" width="200" controls></video><br>mqtt_통신기반_온습도_업데이트</div> |
+|---|---|
+
+
+
 
 
 
