@@ -12,6 +12,9 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 **2024.11 ~ (유지보수 및 추가 기능 기획중... )**
 
+## 수정 내용
+- 2025.01.02 : 내부 RTC모듈 대신 DS1302 모듈을 사용해 보드 전원 리셋 후 이전 시간 유지의 안정성 보장 및 알람 데이터 유실 방지
+
 ## 사용 제품
 
 ![ESP32-CAM-Module](https://github.com/user-attachments/assets/a8a1bf2f-3fd1-45b0-aac1-479ce70e7ba7) |![NUCLEO_F722ZE](https://github.com/user-attachments/assets/e165a392-7500-4f10-88c3-7ed9bf41b001)
@@ -89,7 +92,9 @@ https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4
 
 - [SSD1306_HAL_DRIVER](https://github.com/SL-RU/stm32libs/tree/master)
 - [DHT11 HAL_DRIVER](https://github.com/mesutkilic/DHT11-STM32-Library)
+- [DS1302 HAL_DRIVER](https://github.com/aaron-ev/driver-ds1302-stm32f4)
 - [아날로그 핀 설정](https://m.blog.naver.com/sinbong3/222072690691)
 - [Python FLASK_MYSQL_연동](https://minha0220.tistory.com/75#google_vignette)
 - [ESP32_STM32_WIFI_BRIDGE 관련 블로그](https://with-rl.tistory.com/entry/ESP32-STM32%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-WiFi-Serial-Bridge-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - [오제이 튜브 임베디드 영상 강의](https://www.youtube.com/playlist?list=PLz--ENLG_8TNjRg1OtyFBvUyV4PHaKwmu)
+- [DS1302 참고 블로그](https://blog.naver.com/darknisia/222286092630?)
