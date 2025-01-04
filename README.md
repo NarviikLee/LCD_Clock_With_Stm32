@@ -13,7 +13,8 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 **2024.11 ~ (유지보수 및 추가 기능 기획중... )**
 
 ## 수정 내용
-- 2025.01.02 : 내부 RTC모듈 대신 DS1302 모듈을 사용해 보드 전원 리셋 후 이전 시간 유지의 안정성 보장 및 알람 데이터 유실 방지
+- 2025.01.02 : 내부 RTC모듈 대신 DS1302 모듈을 사용해 보드 전원 리셋 후 설정 시간의 안정성 보장 및 알람 데이터 유실 방지
+- 2025.01.02 : 무료 Cloud 기반 MQTT 통신을 통한 온 습도 데이터 전송 방식으로 변경(보안 및 안정성 강화) 
 - 2025.01 : 알람 설정시 특정 아이콘 디스플레이 계획중
 
 ## 사용 제품
@@ -40,6 +41,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 --- | --- |
 
 
+
 ![1초타이머_설정](https://github.com/user-attachments/assets/c77c71bb-fede-4bad-ad2e-2dce11449d02) |![Boozer_PWM](https://github.com/user-attachments/assets/f00e6a1e-ff37-4812-85ae-f03b6a644cd0) |![DHT_데이터취득_타이머](https://github.com/user-attachments/assets/30232928-8692-40dc-a19a-f5fd9226deed)
 --- | --- | --- |
 
@@ -55,7 +57,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ### 1. 시간 및 온 습도 디스플레이
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/dc62d802-92e9-4cf7-9234-1bfa38218090" width="200" controls></video><br>실시간 시간 변화 및 이전 시간 유지(내부 RTC 레지스터 사용)</div> | <div align="center"><video src="https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e" width="200" controls></video><br>메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)</div> |
+| <div align="center"><video src="https://github.com/user-attachments/assets/00f38aab-9c69-441e-afb8-43a4f67ad1b1" width="200" controls></video><br>실시간 시간 변화 및 이전 시간 유지(RTC_DS1302 사용)</div> | <div align="center"><video src="https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e" width="200" controls></video><br>메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)</div> |
 |---|---|
 
 
@@ -85,7 +87,11 @@ https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
 
 #### - 하루에 특정시간(0시, 6시, 12시, 18시)에 온습도 데이터 서버 전송 및 DB 업데이트)
-https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4
+| <div align="center"><video src="https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4" width="200" controls></video><br>Mysql_데이터 업데이트</div> | <div align="center"><video src="https://github.com/user-attachments/assets/643c24d7-ad0f-40ee-8983-4c18007d529f" width="200" controls></video><br>mqtt_통신기반_온습도_업데이트</div> |
+|---|---|
+
+
+
 
 
 
