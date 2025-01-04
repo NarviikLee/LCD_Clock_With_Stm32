@@ -1,4 +1,4 @@
-# STM32기반 LCD 디스플레이 시계
+![GPIO_PIN](https://github.com/user-attachments/assets/b2471494-3536-4d5e-aa30-9f34851e1fff)# STM32기반 LCD 디스플레이 시계
 
 
 ## 설명
@@ -14,6 +14,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 ## 수정 내용
 - 2025.01.02 : 내부 RTC모듈 대신 DS1302 모듈을 사용해 보드 전원 리셋 후 이전 시간 유지의 안정성 보장 및 알람 데이터 유실 방지
+- 2025.01 : 알람 설정시 특정 아이콘 디스플레이 계획중
 
 ## 사용 제품
 
@@ -29,22 +30,22 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 ## 사용 GPIO 정보
 
-![사용_PINMAP](https://github.com/user-attachments/assets/63823b5d-786e-4c94-a161-4494b681341f)
+![보드_핀맵(1 1V)](https://github.com/user-attachments/assets/b5056cd8-1f3f-4d7e-824b-dc09d9d9a0e2)
 
 
 ## STM32CubeIDE 설정
 
 
-![GPIO_PIN](https://github.com/user-attachments/assets/ecdb08d8-956b-407d-bfcf-a582590b386e) |![CLOCK_설정](https://github.com/user-attachments/assets/540b0f52-3e21-40c1-893f-d45be0342469)
---- | --- | 
+![GPIO_PIN](https://github.com/user-attachments/assets/6c502429-354c-4f76-9a18-32af82160434)|![CLOCK_설정](https://github.com/user-attachments/assets/540b0f52-3e21-40c1-893f-d45be0342469)
+--- | --- |
 
 
 ![1초타이머_설정](https://github.com/user-attachments/assets/c77c71bb-fede-4bad-ad2e-2dce11449d02) |![Boozer_PWM](https://github.com/user-attachments/assets/f00e6a1e-ff37-4812-85ae-f03b6a644cd0) |![DHT_데이터취득_타이머](https://github.com/user-attachments/assets/30232928-8692-40dc-a19a-f5fd9226deed)
 --- | --- | --- |
 
 
-![가변저항_ADC](https://github.com/user-attachments/assets/5037dfad-db5e-47bd-bd4d-9cc75eb0d150) |![SSD1306_I2C](https://github.com/user-attachments/assets/ffb08fb9-8182-4ede-9ffb-cfb28f4c4bf2) |![RTC활성화](https://github.com/user-attachments/assets/b6df69d1-16f4-4e78-b36b-d9b99a624411) |![ESP32_USART](https://github.com/user-attachments/assets/53d62c2f-3bbb-465d-9892-aa79f5327f47)
---- | --- | --- | --- | 
+![가변저항_ADC](https://github.com/user-attachments/assets/5037dfad-db5e-47bd-bd4d-9cc75eb0d150) |![SSD1306_I2C](https://github.com/user-attachments/assets/ffb08fb9-8182-4ede-9ffb-cfb28f4c4bf2) |![ESP32_USART](https://github.com/user-attachments/assets/53d62c2f-3bbb-465d-9892-aa79f5327f47)
+--- | --- | --- |
 
 
 
