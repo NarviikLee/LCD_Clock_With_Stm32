@@ -1,4 +1,4 @@
-![GPIO_PIN](https://github.com/user-attachments/assets/b2471494-3536-4d5e-aa30-9f34851e1fff)# STM32기반 LCD 디스플레이 시계
+# STM32기반 LCD 디스플레이 시계
 
 
 ## 설명
