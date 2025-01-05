@@ -33,12 +33,16 @@ void end_Boozer(int mode){
 	setCompleted(mode);
 }
 
-//
+// 알람 시간 체크 함수
 void check_Alarm(){
+	// 디바이스 시간과 알람 시간 체크
 	if((alarm_value[2] == clock_value[2]) && (alarm_value[1] == clock_value[1])){
+		// 알람 설정 ON인지 확인
 		int alarm_check = getAlarmState();
-		if(alarm_check && clock_value[0] == 0){
+		if(alarm_check && clock_value[0] == 0){// 알람 설정을 했을 경우
+			// 부저를 울림
 			start_Boozer(2);
+			// 그리고 알람 시간 업데이트 함수 호출
 			setAlarmCompleted(1);
 		}
 	}

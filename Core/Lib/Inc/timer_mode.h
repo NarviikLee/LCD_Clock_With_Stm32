@@ -11,7 +11,7 @@
 #include "main.h"
 #include "g_var.h"
 
-
+// 기능 구현에 들어가는 변수 관련 모듈
 // Timer Setting Check Function
 int getTimerState();
 void setTimerState(int timer);
@@ -42,8 +42,6 @@ void setnMinute(int minute);
 
 int getnSecond();
 void setnSecond(int second);
-
-
 
 // Timer and alarm State set&get Functions
 int getTimerCompleted();

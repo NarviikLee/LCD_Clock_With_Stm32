@@ -10,7 +10,7 @@
 #include "main.h"
 #include "dht11.h"
 #include "g_var.h"
-
+//esp32 유선 통신 관련 함수들
 void set_send_cnt(int hour);
 void check_send();
 void send_esp32();

@@ -276,6 +276,7 @@ void n_modify_show(){
 void check_timer_lcd(){
 	int minute = getnMinute();
 	int second = getnSecond();
+	//설정한 타이머 최종 디스플레이
 	sprintf(timer_time,"%d%d:%d%d",minute/10,minute%10,second/10,second%10);
 	SSD1306_GotoXY(10,10);
 	SSD1306_Puts("----------------", &Font_7x10, 1);
@@ -304,8 +305,10 @@ void check_alarm_change_lcd(){
 	SSD1306_Puts(alarm_time, &Font_7x10, 1);
 	// you want modify
 	SSD1306_GotoXY(3,30);
+	// 알람 변경을 하고 싶다면 SELECT 버튼
 	SSD1306_Puts("WANT CHANGE SEL", &Font_7x10, 1);
 	SSD1306_GotoXY(3,40);
+	// 알람을 유지할려면 CANCEL버튼
 	SSD1306_Puts("NO CHANGE CAN_B", &Font_7x10, 1);
 	SSD1306_GotoXY(3,50);
 	SSD1306_Puts("----------------", &Font_7x10, 1);

@@ -30,7 +30,6 @@ void processModifyFinalization();
 void timer_Process();
 void alarm_Process();
 void modify_Process();
-void change_Show();
 
 
 #endif /* LIB_INC_SUBCONTROL_H_ */

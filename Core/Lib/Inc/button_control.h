@@ -14,6 +14,4 @@ void main_Check();
 void sel_Pos_control();
 
 void sub_Menu();
-void timer_Completed();
-void judge_timer();
 #endif /* LIB_INC_BUTTON_CONTROL_H_ */
