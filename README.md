@@ -28,12 +28,9 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ![버튼](https://github.com/user-attachments/assets/13e198e9-eb80-4eab-b7a9-bc1a51b1407f) |![가변저항](https://github.com/user-attachments/assets/630d87b7-6dbf-4302-a552-70bf671d739f)
 --- | --- | 
 
-## 사용 기술들
-
-
+## 사용 기술
 
 ![사용기술](https://github.com/user-attachments/assets/dc932ff3-df65-4cb6-8777-e4065617dfc6)
-
 
 
 ## 사용 GPIO 정보
