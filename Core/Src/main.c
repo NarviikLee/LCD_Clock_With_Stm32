@@ -25,7 +25,6 @@
 #include <stdio.h>
 #include "g_var.h"
 #include "alert_fs.h"
-#include "show_clock.h"
 #include "Potentiometer.h"
 #include "timer_mode.h"
 #include "button_control.h"

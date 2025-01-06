@@ -35,15 +35,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_ranges 00001b08  00000000  00000000  000477c8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00029e60  00000000  00000000  000492d0  2**0
+ 16 .debug_macro  00029e4c  00000000  00000000  000492d0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   000267e0  00000000  00000000  00073130  2**0
+ 17 .debug_line   000267bd  00000000  00000000  0007311c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000edcfc  00000000  00000000  00099910  2**0
+ 18 .debug_str    000edce9  00000000  00000000  000998d9  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  0018760c  2**0
+ 19 .comment      00000050  00000000  00000000  001875c2  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000089f8  00000000  00000000  0018765c  2**2
+ 20 .debug_frame  000089f8  00000000  00000000  00187614  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -6504,9 +6504,11 @@ void set_tm_strut(int year,int month, int mday, int hour, int minute){
  8002de0:	4a05      	ldr	r2, [pc, #20]	; (8002df8 <set_tm_strut+0x40>)
  8002de2:	69bb      	ldr	r3, [r7, #24]
  8002de4:	6053      	str	r3, [r2, #4]
+	// 데이터 전송 타임 연산 함수 호출
 	set_send_cnt(hour);
  8002de6:	6838      	ldr	r0, [r7, #0]
  8002de8:	f7fe fcfa 	bl	80017e0 <set_send_cnt>
+	// 업데이트한 tm 구조체를 초단위 변수로 변환 및 디바이스 업데이트
 	convert_time_t();
  8002dec:	f000 f870 	bl	8002ed0 <convert_time_t>
 }
@@ -6522,8 +6524,8 @@ void set_tm_strut(int year,int month, int mday, int hour, int minute){
 void set_static_Time_t(){
  8002dfc:	b480      	push	{r7}
  8002dfe:	af00      	add	r7, sp, #0
-	// ds1302_time(Time_s)구조체는 년단위가 2000+N이다
-	// 그러나 time_t는 년단위가 1900+N이다 그러므로 +100을 해서 맞춰주어야함
+	// ds1302_time(Time_s)구조체는 연도 변수 구성이 2000+N이다
+	// 그러나 tm 구조체는 연도 변수 구성이 1900+N이다 그러므로 +100을 해서 맞춰주어야함
 	current_time.tm_year= (int)ds1302_time.year+100;
  8002e00:	4b11      	ldr	r3, [pc, #68]	; (8002e48 <set_static_Time_t+0x4c>)
  8002e02:	78db      	ldrb	r3, [r3, #3]
@@ -6536,6 +6538,7 @@ void set_static_Time_t(){
  8002e0e:	3b01      	subs	r3, #1
  8002e10:	4a0e      	ldr	r2, [pc, #56]	; (8002e4c <set_static_Time_t+0x50>)
  8002e12:	6113      	str	r3, [r2, #16]
+	// tm 구조체는 월 변수 구성이 0~11이다(1~12), DS1302 저장 구조체에서 월 변수 구성은(1~12)이므로 -1)
 	current_time.tm_mday = (int)ds1302_time.date;
  8002e14:	4b0c      	ldr	r3, [pc, #48]	; (8002e48 <set_static_Time_t+0x4c>)
  8002e16:	795b      	ldrb	r3, [r3, #5]
@@ -6560,6 +6563,7 @@ void set_static_Time_t(){
  8002e36:	461a      	mov	r2, r3
  8002e38:	4b05      	ldr	r3, [pc, #20]	; (8002e50 <set_static_Time_t+0x54>)
  8002e3a:	601a      	str	r2, [r3, #0]
+	// tm 구조체 변환에서 요일 설정이 없는 이유는 위 설정을 입력하면 자동으로 연산되기 때문
 }
  8002e3c:	bf00      	nop
  8002e3e:	46bd      	mov	sp, r7
@@ -6591,6 +6595,8 @@ void get_DS1302_Time_s(){
 void set_DS1302_Time_s(){
  8002e68:	b580      	push	{r7, lr}
  8002e6a:	af00      	add	r7, sp, #0
+	// ds1302_time(Time_s)구조체는 연도 변수 구성이 2000+N이다
+	// 그러나 tm 구조체는 연도 변수 구성이 1900+N이다 그러므로 -100을 해서 맞춰주어야함
 	ds1302_time.year = current_time.tm_year-100;
  8002e6c:	4b16      	ldr	r3, [pc, #88]	; (8002ec8 <set_DS1302_Time_s+0x60>)
  8002e6e:	695b      	ldr	r3, [r3, #20]
@@ -6599,6 +6605,7 @@ void set_DS1302_Time_s(){
  8002e74:	b2da      	uxtb	r2, r3
  8002e76:	4b15      	ldr	r3, [pc, #84]	; (8002ecc <set_DS1302_Time_s+0x64>)
  8002e78:	70da      	strb	r2, [r3, #3]
+	// tm 구조체는 월 변수 구성이 0~11이다(1~12), DS1302 저장 구조체에서 월 변수 구성은(1~12)이므로 +1)
 	ds1302_time.month = current_time.tm_mon+1;
  8002e7a:	4b13      	ldr	r3, [pc, #76]	; (8002ec8 <set_DS1302_Time_s+0x60>)
  8002e7c:	691b      	ldr	r3, [r3, #16]
@@ -6607,6 +6614,9 @@ void set_DS1302_Time_s(){
  8002e82:	b2da      	uxtb	r2, r3
  8002e84:	4b11      	ldr	r3, [pc, #68]	; (8002ecc <set_DS1302_Time_s+0x64>)
  8002e86:	719a      	strb	r2, [r3, #6]
+	// 요일구성이 두 구조체가 다름 ds1302_time 구조체는 1~7(월~일)
+	// tm 구조체는 0~6(일~토)로 구성되어 있으므로 tm 구조체가 0이면 ds1302 시간 구조체는 7을 입력해주어야하므로
+	// 삼항 연산자를 사용함
 	ds1302_time.day = current_time.tm_wday < 1? 7:current_time.tm_wday;
  8002e88:	4b0f      	ldr	r3, [pc, #60]	; (8002ec8 <set_DS1302_Time_s+0x60>)
  8002e8a:	699b      	ldr	r3, [r3, #24]
@@ -6725,6 +6735,7 @@ struct tm get_struct_tm(){
 void set_time_t(){
  8002f48:	b580      	push	{r7, lr}
  8002f4a:	af00      	add	r7, sp, #0
+	// 초단위 변수에 60카운트 추가(1분이 추가되었으므로)
 	sec_con += minute_cnt;
  8002f4c:	4b07      	ldr	r3, [pc, #28]	; (8002f6c <set_time_t+0x24>)
  8002f4e:	e9d3 2300 	ldrd	r2, r3, [r3]
@@ -6732,8 +6743,10 @@ void set_time_t(){
  8002f56:	f143 0100 	adc.w	r1, r3, #0
  8002f5a:	4b04      	ldr	r3, [pc, #16]	; (8002f6c <set_time_t+0x24>)
  8002f5c:	e9c3 0100 	strd	r0, r1, [r3]
+	// 업데이트 한 초단위 변수를 tm 구조체로 변환
 	convert_tm();
  8002f60:	f7ff ffc6 	bl	8002ef0 <convert_tm>
+	// 그리고 업데이트한 구조체 기반 디바이스 LCD 디스플레이 출력
 	update_clock_value();
  8002f64:	f7ff ff0c 	bl	8002d80 <update_clock_value>
 }
@@ -6746,7 +6759,7 @@ void set_time_t(){
 // Mode_Process_variable
 
 
-// functions about Sub menu or select_menu and main_menu Mode
+// 디바이스 모드 업데이트 및 반환 함수
 int getMode(){
  8002f70:	b480      	push	{r7}
  8002f72:	af00      	add	r7, sp, #0
@@ -6782,7 +6795,7 @@ void setMode(int setMode){
 
 08002fa8 <getTimerState>:
 
-// Functions About Timer_mode
+// 타이머 ON_OFF 상태 업데이트 및 반환 함수
 int getTimerState(){
  8002fa8:	b480      	push	{r7}
  8002faa:	af00      	add	r7, sp, #0
@@ -6817,7 +6830,7 @@ void setTimerState(int timer){
  8002fdc:	200007d0 	.word	0x200007d0
 
 08002fe0 <getAlarmState>:
-// Check to set a Alarm Mode
+// 알람이 설정 확인 및 업데이트 함수
 int getAlarmState(){
  8002fe0:	b480      	push	{r7}
  8002fe2:	af00      	add	r7, sp, #0
@@ -6853,7 +6866,7 @@ void setAlarmState(int State){
 
 08003018 <getTimerCompleted>:
 
-// Functions about Timer Complete
+// 타이머 종료(반환) 및 시작(업데이트) 함수
 int getTimerCompleted(){
  8003018:	b480      	push	{r7}
  800301a:	af00      	add	r7, sp, #0
@@ -6888,7 +6901,7 @@ void setTimerCompleted(int completed){
  800304c:	200007d4 	.word	0x200007d4
 
 08003050 <getAlarmCompleted>:
-// Functions About Alarm Complete
+// 알람 상태 변수 업데이트 및 반환 함수
 int getAlarmCompleted(){
  8003050:	b480      	push	{r7}
  8003052:	af00      	add	r7, sp, #0
@@ -6924,6 +6937,7 @@ void setAlarmCompleted(int completed){
 
 08003088 <setCompleted>:
 
+// 알람 및 타이머 확인 업데이트 함수
 void setCompleted(int mode){
  8003088:	b580      	push	{r7, lr}
  800308a:	b082      	sub	sp, #8
@@ -6956,7 +6970,8 @@ void setCompleted(int mode){
 
 080030b4 <getnHour>:
 
-// Timer or Alarm set a Time
+
+// 디바이스 및 추가 기능 시간 단위 업데이트 및 반환 함수
 int getnHour(){
  80030b4:	b480      	push	{r7}
  80030b6:	af00      	add	r7, sp, #0
@@ -6999,7 +7014,7 @@ void setnHour(int hour){
  80030f0:	200007bc 	.word	0x200007bc
 
 080030f4 <getnMinute>:
-
+// 디바이스 및 추가 기능 분 단위 업데이트 및 반환 함수
 int getnMinute(){
  80030f4:	b480      	push	{r7}
  80030f6:	af00      	add	r7, sp, #0
@@ -7034,7 +7049,7 @@ void setnMinute(int minute){
  8003128:	200007c0 	.word	0x200007c0
 
 0800312c <getnSecond>:
-
+// 디바이스 및 추가 기능 초 단위 업데이트 및 반환 함수
 int getnSecond(){
  800312c:	b480      	push	{r7}
  800312e:	af00      	add	r7, sp, #0
@@ -7070,6 +7085,7 @@ void setnSecond(int second){
 
 08003164 <getnYear>:
 
+// 연도 단위 업데이트 및 반환 함수
 int getnYear(){
  8003164:	b480      	push	{r7}
  8003166:	af00      	add	r7, sp, #0
@@ -7106,6 +7122,7 @@ void setnYear(int s_year){
 
 0800319c <getnMonth>:
 
+// 월 단위 업데이트 및 반환 함수
 int getnMonth(){
  800319c:	b480      	push	{r7}
  800319e:	af00      	add	r7, sp, #0
@@ -7140,6 +7157,8 @@ void setnMonth(int s_month){
  80031d0:	200007cc 	.word	0x200007cc
 
 080031d4 <getnDay>:
+
+//요일 업데이트 및 반환 함수
 int getnDay(){
  80031d4:	b480      	push	{r7}
  80031d6:	af00      	add	r7, sp, #0
@@ -7174,7 +7193,7 @@ void setnDay(int s_day){
  8003208:	200000b8 	.word	0x200000b8
 
 0800320c <getPos>:
-// select_menu_Position Functions
+// 선택 커서 현재 위치 반환 함수
 int getPos(){
  800320c:	b480      	push	{r7}
  800320e:	af00      	add	r7, sp, #0
@@ -7190,6 +7209,7 @@ int getPos(){
  8003220:	200007b8 	.word	0x200007b8
 
 08003224 <setPos>:
+// 선택 커서 위치 업데이트 함수
 void setPos(int Pos){
  8003224:	b480      	push	{r7}
  8003226:	b083      	sub	sp, #12
@@ -7290,11 +7310,12 @@ void end_Boozer(int mode){
 
 080032ac <check_Alarm>:
 
-//
+// 알람 시간 체크 함수
 void check_Alarm(){
  80032ac:	b580      	push	{r7, lr}
  80032ae:	b082      	sub	sp, #8
  80032b0:	af00      	add	r7, sp, #0
+	// 디바이스 시간과 알람 시간 체크
 	if((alarm_value[2] == clock_value[2]) && (alarm_value[1] == clock_value[1])){
  80032b2:	4b10      	ldr	r3, [pc, #64]	; (80032f4 <check_Alarm+0x48>)
  80032b4:	689a      	ldr	r2, [r3, #8]
@@ -7308,10 +7329,11 @@ void check_Alarm(){
  80032c4:	685b      	ldr	r3, [r3, #4]
  80032c6:	429a      	cmp	r2, r3
  80032c8:	d10f      	bne.n	80032ea <check_Alarm+0x3e>
+		// 알람 설정 ON인지 확인
 		int alarm_check = getAlarmState();
  80032ca:	f7ff fe89 	bl	8002fe0 <getAlarmState>
  80032ce:	6078      	str	r0, [r7, #4]
-		if(alarm_check && clock_value[0] == 0){
+		if(alarm_check && clock_value[0] == 0){// 알람 설정을 했을 경우
  80032d0:	687b      	ldr	r3, [r7, #4]
  80032d2:	2b00      	cmp	r3, #0
  80032d4:	d009      	beq.n	80032ea <check_Alarm+0x3e>
@@ -7319,9 +7341,11 @@ void check_Alarm(){
  80032d8:	681b      	ldr	r3, [r3, #0]
  80032da:	2b00      	cmp	r3, #0
  80032dc:	d105      	bne.n	80032ea <check_Alarm+0x3e>
+			// 부저를 울림
 			start_Boozer(2);
  80032de:	2002      	movs	r0, #2
  80032e0:	f7ff ffba 	bl	8003258 <start_Boozer>
+			// 그리고 알람 시간 업데이트 함수 호출
 			setAlarmCompleted(1);
  80032e4:	2001      	movs	r0, #1
  80032e6:	f7ff febf 	bl	8003068 <setAlarmCompleted>
@@ -9737,15 +9761,13 @@ void TIM3_IRQHandler(void)
   HAL_TIM_IRQHandler(&htim3);
  800404a:	4822      	ldr	r0, [pc, #136]	; (80040d4 <TIM3_IRQHandler+0x90>)
  800404c:	f003 fbd4 	bl	80077f8 <HAL_TIM_IRQHandler>
-//  second_count ++;
-//  update_clock(second_count);
-//  if(second_count > 120){
-//  	  second_count=0;
-//    }
+  /* USER CODE BEGIN TIM3_IRQn 1 */
+  // 디바이스 모드 취득 함수 호출
   int now_mode = getMode();
  8004050:	f7fe ff8e 	bl	8002f70 <getMode>
  8004054:	6078      	str	r0, [r7, #4]
   // if now mode is Modify, Don't Increase Second..
+  // 디바이스 시간 및 날짜 변경 모드가 아닐 경우 시간 진행
   if(now_mode != 3){
  8004056:	687b      	ldr	r3, [r7, #4]
  8004058:	2b03      	cmp	r3, #3
@@ -9761,45 +9783,54 @@ void TIM3_IRQHandler(void)
  800406a:	4a1c      	ldr	r2, [pc, #112]	; (80040dc <TIM3_IRQHandler+0x98>)
  800406c:	6013      	str	r3, [r2, #0]
   }
+  // 1분이 지날경우 디바이스 시간 업데이트
   if(device_second >=60){
  800406e:	4b1a      	ldr	r3, [pc, #104]	; (80040d8 <TIM3_IRQHandler+0x94>)
  8004070:	681b      	ldr	r3, [r3, #0]
  8004072:	2b3b      	cmp	r3, #59	; 0x3b
  8004074:	dd0f      	ble.n	8004096 <TIM3_IRQHandler+0x52>
+	  // 디바이스 초 단위 초기화
 	  device_second=0;
  8004076:	4b18      	ldr	r3, [pc, #96]	; (80040d8 <TIM3_IRQHandler+0x94>)
  8004078:	2200      	movs	r2, #0
  800407a:	601a      	str	r2, [r3, #0]
+	  // 디바이스 time_t 업데이트
 	  set_time_t();
  800407c:	f7fe ff64 	bl	8002f48 <set_time_t>
+	  // 디바이스 시간 배열 초 단위 업데이트(0)
 	  clock_value[0]=device_second;
  8004080:	4b15      	ldr	r3, [pc, #84]	; (80040d8 <TIM3_IRQHandler+0x94>)
  8004082:	681b      	ldr	r3, [r3, #0]
  8004084:	4a15      	ldr	r2, [pc, #84]	; (80040dc <TIM3_IRQHandler+0x98>)
  8004086:	6013      	str	r3, [r2, #0]
+	  // 알람 설정 상태 확인
 	  if(getAlarmState()){
  8004088:	f7fe ffaa 	bl	8002fe0 <getAlarmState>
  800408c:	4603      	mov	r3, r0
  800408e:	2b00      	cmp	r3, #0
  8004090:	d001      	beq.n	8004096 <TIM3_IRQHandler+0x52>
+		  // 알람이 설정했을 경우 알람시간 체크 함수 호출
 		  check_Alarm();
  8004092:	f7ff f90b 	bl	80032ac <check_Alarm>
 	  }
-	  // alarm check ?��?��
   }
+  // 타이머 설정을 했을 경우
   if(getTimerState() == 1){
  8004096:	f7fe ff87 	bl	8002fa8 <getTimerState>
  800409a:	4603      	mov	r3, r0
  800409c:	2b01      	cmp	r3, #1
  800409e:	d115      	bne.n	80040cc <TIM3_IRQHandler+0x88>
+	  // 초단위로 변경한 타이머 시간 감소(ex:01:30 -> 90초이므로 Timer_Second = 90)
 	  Timer_Second--;
  80040a0:	4b0f      	ldr	r3, [pc, #60]	; (80040e0 <TIM3_IRQHandler+0x9c>)
  80040a2:	681b      	ldr	r3, [r3, #0]
  80040a4:	3b01      	subs	r3, #1
  80040a6:	4a0e      	ldr	r2, [pc, #56]	; (80040e0 <TIM3_IRQHandler+0x9c>)
  80040a8:	6013      	str	r3, [r2, #0]
+	  // 타이머 디스플레이 시간 업데이트
 	  update_timer();
  80040aa:	f7fc fc81 	bl	80009b0 <update_timer>
+	  // 타이머 시간이 0이고, 타이머를 설정했을경우 (즉 타이머 종료)
 	  if(Timer_Second == 0 && getTimerState()==1){
  80040ae:	4b0c      	ldr	r3, [pc, #48]	; (80040e0 <TIM3_IRQHandler+0x9c>)
  80040b0:	681b      	ldr	r3, [r3, #0]
@@ -9809,10 +9840,12 @@ void TIM3_IRQHandler(void)
  80040ba:	4603      	mov	r3, r0
  80040bc:	2b01      	cmp	r3, #1
  80040be:	d105      	bne.n	80040cc <TIM3_IRQHandler+0x88>
+		  //타이머 종료 변수 업데이트
+		  // LCD 변경 및 부저를 울리기 위해
 		  setTimerCompleted(1);
  80040c0:	2001      	movs	r0, #1
  80040c2:	f7fe ffb5 	bl	8003030 <setTimerCompleted>
-//		  __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_3, htim4.Init.Period);
+		  // 부저 ON
 		  start_Boozer(1);
  80040c6:	2001      	movs	r0, #1
  80040c8:	f7ff f8c6 	bl	8003258 <start_Boozer>
@@ -9842,6 +9875,7 @@ void EXTI15_10_IRQHandler(void)
   /* USER CODE BEGIN EXTI15_10_IRQn 0 */
 
   /* USER CODE END EXTI15_10_IRQn 0 */
+  //디바이스 버튼 인터럽트 활성화
   HAL_GPIO_EXTI_IRQHandler(UP_B_Pin);
  80040e8:	f44f 5080 	mov.w	r0, #4096	; 0x1000
  80040ec:	f001 f8be 	bl	800526c <HAL_GPIO_EXTI_IRQHandler>
@@ -9855,6 +9889,7 @@ void EXTI15_10_IRQHandler(void)
  8004100:	f44f 4000 	mov.w	r0, #32768	; 0x8000
  8004104:	f001 f8b2 	bl	800526c <HAL_GPIO_EXTI_IRQHandler>
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
+  //
   if((HAL_GetTick() - btn_time) > BUTTON_GAP){
  8004108:	f000 f9a6 	bl	8004458 <HAL_GetTick>
  800410c:	4602      	mov	r2, r0
@@ -9863,6 +9898,7 @@ void EXTI15_10_IRQHandler(void)
  8004112:	1ad3      	subs	r3, r2, r3
  8004114:	f5b3 7ffa 	cmp.w	r3, #500	; 0x1f4
  8004118:	d937      	bls.n	800418a <EXTI15_10_IRQHandler+0xa6>
+	  // 디스플레이, 메뉴 이동 버튼(CANCEL) 인터럽트는 언제든 활성화(이전 프로세스 이동, 메뉴 선택 회귀등)
 	  cancel_btn = HAL_GPIO_ReadPin(USER_Btn_GPIO_Port,USER_Btn_Pin);
  800411a:	f44f 5100 	mov.w	r1, #8192	; 0x2000
  800411e:	481f      	ldr	r0, [pc, #124]	; (800419c <EXTI15_10_IRQHandler+0xb8>)
@@ -9871,7 +9907,7 @@ void EXTI15_10_IRQHandler(void)
  8004126:	461a      	mov	r2, r3
  8004128:	4b1d      	ldr	r3, [pc, #116]	; (80041a0 <EXTI15_10_IRQHandler+0xbc>)
  800412a:	701a      	strb	r2, [r3, #0]
-	  // Mode�???????? 메뉴 모드?��?���???????? ?��?��?��?���???????? ?��?�� ?��?�� �?????????���???????? �????????(0?��?��?�� ?��?��)
+	  // 메뉴 선택 모드 일때에 선택 커서 이동 인터럽트 활성화
 	  if(getMode() >= 0){
  800412c:	f7fe ff20 	bl	8002f70 <getMode>
  8004130:	4603      	mov	r3, r0

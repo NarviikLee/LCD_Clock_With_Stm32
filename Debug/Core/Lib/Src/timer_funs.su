@@ -1,10 +1,10 @@
 ../Core/Lib/Src/timer_funs.c:21:6:init_timer_funs	8	static
 ../Core/Lib/Src/timer_funs.c:34:6:update_clock_value	8	static
 ../Core/Lib/Src/timer_funs.c:46:6:set_tm_strut	24	static
-../Core/Lib/Src/timer_funs.c:57:6:set_static_Time_t	4	static
-../Core/Lib/Src/timer_funs.c:69:6:get_DS1302_Time_s	8	static
-../Core/Lib/Src/timer_funs.c:74:6:set_DS1302_Time_s	8	static
-../Core/Lib/Src/timer_funs.c:86:6:convert_time_t	8	static
-../Core/Lib/Src/timer_funs.c:90:6:convert_tm	16	static
-../Core/Lib/Src/timer_funs.c:95:11:get_struct_tm	24	static
-../Core/Lib/Src/timer_funs.c:99:6:set_time_t	8	static
+../Core/Lib/Src/timer_funs.c:59:6:set_static_Time_t	4	static
+../Core/Lib/Src/timer_funs.c:73:6:get_DS1302_Time_s	8	static
+../Core/Lib/Src/timer_funs.c:78:6:set_DS1302_Time_s	8	static
+../Core/Lib/Src/timer_funs.c:96:6:convert_time_t	8	static
+../Core/Lib/Src/timer_funs.c:100:6:convert_tm	16	static
+../Core/Lib/Src/timer_funs.c:105:11:get_struct_tm	24	static
+../Core/Lib/Src/timer_funs.c:109:6:set_time_t	8	static
