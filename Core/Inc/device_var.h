@@ -5,8 +5,8 @@
  *      Author: ihg78
  */
 
-#ifndef INC_G_VAR_H_
-#define INC_G_VAR_H_
+#ifndef INC_DEVICE_VAR_H_
+#define INC_DEVICE_VAR_H_
 
 #include "main.h"
 #include <time.h>
@@ -35,4 +35,4 @@ extern int Timer_Second;
 extern int device_second;
 
 
-#endif /* INC_G_VAR_H_ */
+#endif /* INC_DEVICE_VAR_H_ */

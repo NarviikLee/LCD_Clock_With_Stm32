@@ -6,7 +6,7 @@
  */
 
 
-#include "g_var.h"
+#include <device_var.h>
 
 // using button that interrupts
 uint8_t cancel_btn = 0;

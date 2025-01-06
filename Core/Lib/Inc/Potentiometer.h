@@ -8,8 +8,8 @@
 #ifndef LIB_INC_POTENTIOMETER_H_
 #define LIB_INC_POTENTIOMETER_H_
 
+#include <device_var.h>
 #include "main.h"
-#include "g_var.h"
 
 // 100년 설정 계산 변수(3750/100)
 #define YEARCONVERT 37

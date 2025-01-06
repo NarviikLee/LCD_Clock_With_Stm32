@@ -8,8 +8,8 @@
 #ifndef LIB_INC_TIMER_MODE_H_
 #define LIB_INC_TIMER_MODE_H_
 
+#include <device_var.h>
 #include "main.h"
-#include "g_var.h"
 
 // 기능 구현에 들어가는 변수 관련 모듈
 // Timer Setting Check Function

@@ -17,13 +17,13 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <device_var.h>
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 //#include "fnd_seg.h"
 #include <stdio.h>
-#include "g_var.h"
 #include "alert_fs.h"
 #include "Potentiometer.h"
 #include "timer_mode.h"

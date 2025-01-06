@@ -7,11 +7,10 @@
 
 #ifndef LIB_INC_BUTTON_CONTROL_H_
 #define LIB_INC_BUTTON_CONTROL_H_
-#include "g_var.h"
+#include <device_var.h>
 
 
 void main_Check();
 void sel_Pos_control();
-
 void sub_Menu();
 #endif /* LIB_INC_BUTTON_CONTROL_H_ */

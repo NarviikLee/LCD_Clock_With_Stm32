@@ -7,9 +7,9 @@
 
 #ifndef LIB_INC_ESP32_DHT11_H_
 #define LIB_INC_ESP32_DHT11_H_
+#include <device_var.h>
 #include "main.h"
 #include "dht11.h"
-#include "g_var.h"
 //esp32 유선 통신 관련 함수들
 void set_send_cnt(int hour);
 void check_send();

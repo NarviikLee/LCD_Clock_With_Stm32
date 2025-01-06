@@ -6,11 +6,11 @@
  */
 
 
+#include <device_var.h>
 #include <stdio.h>
 #include <time.h>
 
 #include "lcd_menu.h"
-#include "g_var.h"
 #include "timer_mode.h"
 #include "Potentiometer.h"
 #include "RTC_Functions.h"

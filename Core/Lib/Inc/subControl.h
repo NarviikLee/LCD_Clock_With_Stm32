@@ -7,8 +7,8 @@
 
 #ifndef LIB_INC_SUBCONTROL_H_
 #define LIB_INC_SUBCONTROL_H_
+#include <device_var.h>
 #include "main.h"
-#include "g_var.h"
 #include <stdbool.h>
 
 bool handleButtonPress(int *process_case, int increment) ;

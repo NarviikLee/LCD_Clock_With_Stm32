@@ -1,4 +1,4 @@
-Core/Src/g_var.o: ../Core/Src/g_var.c ../Core/Inc/g_var.h \
+Core/Src/device_var.o: ../Core/Src/device_var.c ../Core/Inc/device_var.h \
  ../Core/Inc/main.h ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../Core/Inc/stm32f7xx_hal_conf.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -36,7 +36,7 @@ Core/Src/g_var.o: ../Core/Src/g_var.c ../Core/Inc/g_var.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h
-../Core/Inc/g_var.h:
+../Core/Inc/device_var.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:

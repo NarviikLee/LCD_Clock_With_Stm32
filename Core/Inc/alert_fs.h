@@ -7,7 +7,7 @@
 
 #ifndef INC_ALERT_FS_H_
 #define INC_ALERT_FS_H_
-#include "g_var.h"
+#include <device_var.h>
 #include "main.h"
 #include "lcd_menu.h"
 

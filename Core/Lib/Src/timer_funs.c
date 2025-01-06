@@ -5,10 +5,10 @@
  *      Author: ihg78
  */
 
+#include <device_var.h>
 #include "timer_funs.h"
 #include "timer_mode.h"
 #include "RTC_Functions.h"
-#include "g_var.h"
 #include "esp32_dht11.h"
 
 static time_t sec_con;

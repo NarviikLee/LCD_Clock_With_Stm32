@@ -11,7 +11,7 @@
 "./Core/Lib/Src/timer_funs.o"
 "./Core/Lib/Src/timer_mode.o"
 "./Core/Src/alert_fs.o"
-"./Core/Src/g_var.o"
+"./Core/Src/device_var.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32f7xx_hal_msp.o"
 "./Core/Src/stm32f7xx_it.o"
