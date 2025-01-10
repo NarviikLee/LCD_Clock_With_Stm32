@@ -95,17 +95,14 @@ https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
 |---|---|
 
 
-
-
-
-
-## 참고 자료
-
-- [SSD1306_HAL_DRIVER](https://github.com/SL-RU/stm32libs/tree/master)
-- [DHT11 HAL_DRIVER](https://github.com/mesutkilic/DHT11-STM32-Library)
-- [DS1302 HAL_DRIVER](https://github.com/aaron-ev/driver-ds1302-stm32f4)
+## 참고 블로그 및 영상강의
 - [아날로그 핀 설정](https://m.blog.naver.com/sinbong3/222072690691)
 - [Python FLASK_MYSQL_연동](https://minha0220.tistory.com/75#google_vignette)
 - [ESP32_STM32_WIFI_BRIDGE 관련 블로그](https://with-rl.tistory.com/entry/ESP32-STM32%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-WiFi-Serial-Bridge-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - [오제이 튜브 임베디드 영상 강의](https://www.youtube.com/playlist?list=PLz--ENLG_8TNjRg1OtyFBvUyV4PHaKwmu)
 - [DS1302 참고 블로그](https://blog.naver.com/darknisia/222286092630?)
+
+## GitHub Reference
+- [SSD1306_HAL_DRIVER](https://github.com/SL-RU/stm32libs/tree/master)
+- [DHT11 HAL_DRIVER](https://github.com/mesutkilic/DHT11-STM32-Library)
+- [DS1302 HAL_DRIVER](https://github.com/aaron-ev/driver-ds1302-stm32f4)
