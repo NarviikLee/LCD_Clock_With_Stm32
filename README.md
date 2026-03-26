@@ -79,7 +79,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ### 2. 알람 기능
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video><br>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video><br></div>|
+| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video><br>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video><br>알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)</div>|
 |---|---|
 
 
@@ -102,8 +102,9 @@ https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
 
 #### - 하루에 특정시간(0시, 6시, 12시, 18시)에 온습도 데이터 서버 전송 및 DB 업데이트)
-| ![Mysql_데이터 업데이트](./images/온습도_업데이트.gif)| ![mqtt_통신기반_온습도_업데이트](./images/Mqtt_업데이트_확인.gif) |
-|---|---|
+| ![이미지1](./images/온습도_업데이트.gif) | ![이미지2](./images/Mqtt_업데이트_확인.gif) |
+| :---: | :---: |
+| Mysql_데이터 업데이트 | mqtt_통신기반_온습도_업데이트 |
 
 
 ## 참고 블로그 및 영상강의
