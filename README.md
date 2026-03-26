@@ -55,30 +55,30 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 
 
-##
-### 시스템 아키텍처
-.
-├── arduino/           # ESP32 MQTT & Wi-Fi Bridge
-├── firmware/          # STM32 Main Control Logic (HAL 기반)
-│   ├── Core/Lib/      # 센서 및 디바이스 드라이버 (DHT11, SSD1306, DS1302 등)
-│   └── Core/Src/      # 인터럽트 및 타이머 제어 로직
-├── flask/             # Oracle Cloud 기반 백엔드 및 대시보드
-└── images/            # 시연 GIF 및 시스템 구성도
+### 프로젝트 구조 (Project Structure)
 
+```text
+.
+├── arduino/           # ESP32 MQTT & Wi-Fi Bridge (데이터 중계)
+├── firmware/          # STM32 Main Control Logic (HAL 기반 메인 로직)
+│   ├── Core/Lib/      # 디바이스 드라이버 (DHT11, SSD1306, DS1302 등)
+│   └── Core/Src/      # 인터럽트 핸들러 및 타이머 제어 로직
+├── flask/             # Oracle Cloud 기반 백엔드 및 모니터링 대시보드
+└── images/            # 기능 시연 GIF 및 시스템 하드웨어 구성도
 
 ## 구현 기능
 
 ### 1. 시간 및 온 습도 디스플레이
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/00f38aab-9c69-441e-afb8-43a4f67ad1b1" width="200" controls></video><br>실시간 시간 변화 및 이전 시간 유지(RTC_DS1302 사용)</div> | <div align="center"><video src="https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e" width="200" controls></video><br>메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)</div> |
+|![실시간 시간 변화 및 이전 시간 유지(RTC_DS1302 사용)](./images/시간유지및_디스플레이.gif) | ![메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)] (./images/메뉴_화면.gif) |
 |---|---|
 
 
 ### 2. 알람 기능
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video><br>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video><br>알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)</div> |
+| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video><br>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video><br></div>  ![알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)] (./images/메뉴_화면.gif)|
 |---|---|
 
 
@@ -101,7 +101,7 @@ https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
 
 #### - 하루에 특정시간(0시, 6시, 12시, 18시)에 온습도 데이터 서버 전송 및 DB 업데이트)
-| <div align="center"><video src="https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4" width="200" controls></video><br>Mysql_데이터 업데이트</div> | <div align="center"><video src="https://github.com/user-attachments/assets/643c24d7-ad0f-40ee-8983-4c18007d529f" width="200" controls></video><br>mqtt_통신기반_온습도_업데이트</div> |
+| ![Mysql_데이터 업데이트](./images/온습도_업데이트.gif)| ![mqtt_통신기반_온습도_업데이트](./images/Mqtt_업데이트_확인.gif) |
 |---|---|
 
 
