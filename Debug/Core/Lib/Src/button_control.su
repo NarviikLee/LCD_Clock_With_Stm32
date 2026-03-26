@@ -1,3 +1,0 @@
-../Core/Lib/Src/button_control.c:23:6:main_Check	16	static
-../Core/Lib/Src/button_control.c:87:6:sel_Pos_control	8	static
-../Core/Lib/Src/button_control.c:131:6:sub_Menu	8	static

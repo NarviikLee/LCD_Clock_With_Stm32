@@ -1,3 +1,0 @@
-../Core/Lib/Src/esp32_dht11.c:23:6:check_send	16	static
-../Core/Lib/Src/esp32_dht11.c:46:6:set_send_cnt	24	static
-../Core/Lib/Src/esp32_dht11.c:58:6:send_esp32	24	static
