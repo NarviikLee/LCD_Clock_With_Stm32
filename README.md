@@ -79,7 +79,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ### 2. 알람 기능
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video><br>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video><br>알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)</div>|
+| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video>알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)</div>|
 |---|---|
 
 
