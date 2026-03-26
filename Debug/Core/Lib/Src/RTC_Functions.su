@@ -1,4 +1,0 @@
-../Core/Lib/Src/RTC_Functions.c:17:5:check_Alarm_FLAG	16	static
-../Core/Lib/Src/RTC_Functions.c:27:6:set_Alarm_flag	16	static
-../Core/Lib/Src/RTC_Functions.c:31:6:get_Alarm	16	static
-../Core/Lib/Src/RTC_Functions.c:44:6:set_Alarm	16	static

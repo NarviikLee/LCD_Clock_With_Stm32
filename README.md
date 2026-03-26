@@ -55,6 +55,16 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 
 
+##
+### 시스템 아키텍처
+.
+├── arduino/           # ESP32 MQTT & Wi-Fi Bridge
+├── firmware/          # STM32 Main Control Logic (HAL 기반)
+│   ├── Core/Lib/      # 센서 및 디바이스 드라이버 (DHT11, SSD1306, DS1302 등)
+│   └── Core/Src/      # 인터럽트 및 타이머 제어 로직
+├── flask/             # Oracle Cloud 기반 백엔드 및 대시보드
+└── images/            # 시연 GIF 및 시스템 구성도
+
 
 ## 구현 기능
 
