@@ -1,0 +1,386 @@
+Connected to MQTT broker!
+Received message : {"index":2,"temp":18,"hud":7,"device_name":"device_1"}
+received{'index': 2, 'temp': 18, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 18, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-15'}
+Received message : {"index":0,"temp":22,"hud":8,"device_name":"device_1"}
+received{'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-15'}
+Received message : {"index":1,"temp":18,"hud":10,"device_name":"device_1"}
+received{'index': 1, 'temp': 18, 'hud': 10, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 18, 'hud': 10, 'device_name': 'device_1', 'date': '2025-01-16'}
+Received message : {"index":2,"temp":19,"hud":10,"device_name":"device_1"}
+received{'index': 2, 'temp': 19, 'hud': 10, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 19, 'hud': 10, 'device_name': 'device_1', 'date': '2025-01-16'}
+Received message : {"index":3,"temp":23,"hud":14,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 14, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 14, 'device_name': 'device_1', 'date': '2025-01-16'}
+Received message : {"index":0,"temp":23,"hud":13,"device_name":"device_1"}
+received{'index': 0, 'temp': 23, 'hud': 13, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 23, 'hud': 13, 'device_name': 'device_1', 'date': '2025-01-16'}
+Received message : {"index":1,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 1, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-17'}
+Received message : {"index":2,"temp":19,"hud":11,"device_name":"device_1"}
+received{'index': 2, 'temp': 19, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 19, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-17'}
+Received message : {"index":3,"temp":23,"hud":11,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-17'}
+Received message : {"index":0,"temp":25,"hud":10,"device_name":"device_1"}
+received{'index': 0, 'temp': 25, 'hud': 10, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 25, 'hud': 10, 'device_name': 'device_1', 'date': '2025-01-17'}
+Received message : {"index":1,"temp":19,"hud":11,"device_name":"device_1"}
+received{'index': 1, 'temp': 19, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 19, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-18'}
+Received message : {"index":2,"temp":21,"hud":20,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 20, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 20, 'device_name': 'device_1', 'date': '2025-01-18'}
+Received message : {"index":3,"temp":20,"hud":16,"device_name":"device_1"}
+received{'index': 3, 'temp': 20, 'hud': 16, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 20, 'hud': 16, 'device_name': 'device_1', 'date': '2025-01-18'}
+Received message : {"index":0,"temp":23,"hud":13,"device_name":"device_1"}
+received{'index': 0, 'temp': 23, 'hud': 13, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 23, 'hud': 13, 'device_name': 'device_1', 'date': '2025-01-18'}
+Received message : {"index":1,"temp":22,"hud":13,"device_name":"device_1"}
+received{'index': 1, 'temp': 22, 'hud': 13, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 22, 'hud': 13, 'device_name': 'device_1', 'date': '2025-01-19'}
+Received message : {"index":2,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-19'}
+Received message : {"index":3,"temp":20,"hud":20,"device_name":"device_1"}
+received{'index': 3, 'temp': 20, 'hud': 20, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 20, 'hud': 20, 'device_name': 'device_1', 'date': '2025-01-19'}
+Received message : {"index":0,"temp":24,"hud":18,"device_name":"device_1"}
+received{'index': 0, 'temp': 24, 'hud': 18, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 24, 'hud': 18, 'device_name': 'device_1', 'date': '2025-01-19'}
+Received message : {"index":1,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 1, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-20'}
+Received message : {"index":2,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-20'}
+Received message : {"index":3,"temp":20,"hud":27,"device_name":"device_1"}
+received{'index': 3, 'temp': 20, 'hud': 27, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 20, 'hud': 27, 'device_name': 'device_1', 'date': '2025-01-20'}
+Received message : {"index":0,"temp":26,"hud":22,"device_name":"device_1"}
+received{'index': 0, 'temp': 26, 'hud': 22, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 26, 'hud': 22, 'device_name': 'device_1', 'date': '2025-01-20'}
+Received message : {"index":1,"temp":23,"hud":20,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 20, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 20, 'device_name': 'device_1', 'date': '2025-01-21'}
+Received message : {"index":2,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-21'}
+Received message : {"index":3,"temp":21,"hud":21,"device_name":"device_1"}
+received{'index': 3, 'temp': 21, 'hud': 21, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 21, 'hud': 21, 'device_name': 'device_1', 'date': '2025-01-21'}
+Received message : {"index":0,"temp":25,"hud":14,"device_name":"device_1"}
+received{'index': 0, 'temp': 25, 'hud': 14, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 25, 'hud': 14, 'device_name': 'device_1', 'date': '2025-01-21'}
+Received message : {"index":1,"temp":23,"hud":18,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 18, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 18, 'device_name': 'device_1', 'date': '2025-01-22'}
+Received message : {"index":2,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-22'}
+Received message : {"index":3,"temp":25,"hud":25,"device_name":"device_1"}
+received{'index': 3, 'temp': 25, 'hud': 25, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 25, 'hud': 25, 'device_name': 'device_1', 'date': '2025-01-22'}
+Received message : {"index":0,"temp":23,"hud":16,"device_name":"device_1"}
+received{'index': 0, 'temp': 23, 'hud': 16, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 23, 'hud': 16, 'device_name': 'device_1', 'date': '2025-01-22'}
+Received message : {"index":1,"temp":20,"hud":20,"device_name":"device_1"}
+received{'index': 1, 'temp': 20, 'hud': 20, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 20, 'hud': 20, 'device_name': 'device_1', 'date': '2025-01-23'}
+Received message : {"index":2,"temp":21,"hud":18,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 18, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 18, 'device_name': 'device_1', 'date': '2025-01-23'}
+Received message : {"index":3,"temp":23,"hud":13,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 13, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 13, 'device_name': 'device_1', 'date': '2025-01-23'}
+Received message : Hello, MQTT with Auth!
+Error processing message: Expecting value: line 1 column 1 (char 0)
+Received message : Hello, MQTT with Auth!
+Error processing message: Expecting value: line 1 column 1 (char 0)
+Received message : {"index":0,"temp":26,"hud":15,"device_name":"device_1"}
+received{'index': 0, 'temp': 26, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 26, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-23'}
+Received message : {"index":1,"temp":20,"hud":11,"device_name":"device_1"}
+received{'index': 1, 'temp': 20, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 20, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":2,"temp":20,"hud":12,"device_name":"device_1"}
+received{'index': 2, 'temp': 20, 'hud': 12, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 20, 'hud': 12, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":3,"temp":22,"hud":20,"device_name":"device_1"}
+received{'index': 3, 'temp': 22, 'hud': 20, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 22, 'hud': 20, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":0,"temp":22,"hud":8,"device_name":"device_1"}
+received{'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":1,"temp":20,"hud":6,"device_name":"device_1"}
+received{'index': 1, 'temp': 20, 'hud': 6, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 20, 'hud': 6, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":2,"temp":21,"hud":11,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":3,"temp":25,"hud":9,"device_name":"device_1"}
+received{'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":0,"temp":22,"hud":11,"device_name":"device_1"}
+received{'index': 0, 'temp': 22, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 22, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":1,"temp":24,"hud":5,"device_name":"device_1"}
+received{'index': 1, 'temp': 24, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 24, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":3,"temp":23,"hud":8,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":0,"temp":25,"hud":15,"device_name":"device_1"}
+received{'index': 0, 'temp': 25, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 25, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":1,"temp":26,"hud":14,"device_name":"device_1"}
+received{'index': 1, 'temp': 26, 'hud': 14, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 26, 'hud': 14, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":2,"temp":23,"hud":15,"device_name":"device_1"}
+received{'index': 2, 'temp': 23, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 23, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":3,"temp":26,"hud":8,"device_name":"device_1"}
+received{'index': 3, 'temp': 26, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 26, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":0,"temp":21,"hud":7,"device_name":"device_1"}
+received{'index': 0, 'temp': 21, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 21, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":1,"temp":23,"hud":5,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":2,"temp":23,"hud":16,"device_name":"device_1"}
+received{'index': 2, 'temp': 23, 'hud': 16, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 23, 'hud': 16, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":3,"temp":25,"hud":9,"device_name":"device_1"}
+received{'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":0,"temp":20,"hud":8,"device_name":"device_1"}
+received{'index': 0, 'temp': 20, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 20, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":1,"temp":23,"hud":4,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 4, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 4, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":2,"temp":24,"hud":5,"device_name":"device_1"}
+received{'index': 2, 'temp': 24, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 24, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":3,"temp":18,"hud":7,"device_name":"device_1"}
+received{'index': 3, 'temp': 18, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 18, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":0,"temp":17,"hud":5,"device_name":"device_1"}
+received{'index': 0, 'temp': 17, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 17, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":1,"temp":23,"hud":7,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":2,"temp":21,"hud":4,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 4, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 4, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":3,"temp":22,"hud":23,"device_name":"device_1"}
+received{'index': 3, 'temp': 22, 'hud': 23, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 22, 'hud': 23, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":0,"temp":24,"hud":12,"device_name":"device_1"}
+received{'index': 0, 'temp': 24, 'hud': 12, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 24, 'hud': 12, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":1,"temp":23,"hud":11,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-31'}
+Received message : {"index":2,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}Connected to MQTT broker!
+Received message : Hello, MQTT with Auth!
+Error processing message: Expecting value: line 1 column 1 (char 0)
+Received message : {"index":0,"temp":26,"hud":15,"device_name":"device_1"}
+received{'index': 0, 'temp': 26, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 26, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-23'}
+Received message : {"index":1,"temp":20,"hud":11,"device_name":"device_1"}
+received{'index': 1, 'temp': 20, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 20, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":2,"temp":20,"hud":12,"device_name":"device_1"}
+received{'index': 2, 'temp': 20, 'hud': 12, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 20, 'hud': 12, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":3,"temp":22,"hud":20,"device_name":"device_1"}
+received{'index': 3, 'temp': 22, 'hud': 20, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 22, 'hud': 20, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":0,"temp":22,"hud":8,"device_name":"device_1"}
+received{'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":1,"temp":20,"hud":6,"device_name":"device_1"}
+received{'index': 1, 'temp': 20, 'hud': 6, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 20, 'hud': 6, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":2,"temp":21,"hud":11,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":3,"temp":25,"hud":9,"device_name":"device_1"}
+received{'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":0,"temp":22,"hud":11,"device_name":"device_1"}
+received{'index': 0, 'temp': 22, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 22, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":1,"temp":24,"hud":5,"device_name":"device_1"}
+received{'index': 1, 'temp': 24, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 24, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":3,"temp":23,"hud":8,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":0,"temp":25,"hud":15,"device_name":"device_1"}
+received{'index': 0, 'temp': 25, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 25, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":1,"temp":26,"hud":14,"device_name":"device_1"}
+received{'index': 1, 'temp': 26, 'hud': 14, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 26, 'hud': 14, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":2,"temp":23,"hud":15,"device_name":"device_1"}
+received{'index': 2, 'temp': 23, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 23, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":3,"temp":26,"hud":8,"device_name":"device_1"}
+received{'index': 3, 'temp': 26, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 26, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":0,"temp":21,"hud":7,"device_name":"device_1"}
+received{'index': 0, 'temp': 21, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 21, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":1,"temp":23,"hud":5,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":2,"temp":23,"hud":16,"device_name":"device_1"}
+received{'index': 2, 'temp': 23, 'hud': 16, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 23, 'hud': 16, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":3,"temp":25,"hud":9,"device_name":"device_1"}
+received{'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":0,"temp":20,"hud":8,"device_name":"device_1"}
+received{'index': 0, 'temp': 20, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 20, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":1,"temp":23,"hud":4,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 4, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 4, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":2,"temp":24,"hud":5,"device_name":"device_1"}
+received{'index': 2, 'temp': 24, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 24, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":3,"temp":18,"hud":7,"device_name":"device_1"}
+received{'index': 3, 'temp': 18, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 18, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":0,"temp":17,"hud":5,"device_name":"device_1"}
+received{'index': 0, 'temp': 17, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 17, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":1,"temp":23,"hud":7,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":2,"temp":21,"hud":4,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 4, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 4, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":3,"temp":22,"hud":23,"device_name":"device_1"}
+received{'index': 3, 'temp': 22, 'hud': 23, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 22, 'hud': 23, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":0,"temp":24,"hud":12,"device_name":"device_1"}
+received{'index': 0, 'temp': 24, 'hud': 12, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 24, 'hud': 12, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":1,"temp":23,"hud":11,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-31'}
+Received message : {"index":2,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-31'}
+Received message : {"index":3,"temp":23,"hud":18,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 18, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 18, 'device_name': 'device_1', 'date': '2025-01-31'}
+Received message : {"index":2,"temp":19,"hud":26,"device_name":"device_1"}
+received{'index': 2, 'temp': 19, 'hud': 26, 'device_name': 'device_1'}Connected to MQTT broker!
+Received message : {"index":0,"temp":26,"hud":15,"device_name":"device_1"}
+received{'index': 0, 'temp': 26, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 26, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-23'}
+Received message : {"index":1,"temp":20,"hud":11,"device_name":"device_1"}
+received{'index': 1, 'temp': 20, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 20, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":2,"temp":20,"hud":12,"device_name":"device_1"}
+received{'index': 2, 'temp': 20, 'hud': 12, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 20, 'hud': 12, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":3,"temp":22,"hud":20,"device_name":"device_1"}
+received{'index': 3, 'temp': 22, 'hud': 20, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 22, 'hud': 20, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":0,"temp":22,"hud":8,"device_name":"device_1"}
+received{'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 22, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-24'}
+Received message : {"index":1,"temp":20,"hud":6,"device_name":"device_1"}
+received{'index': 1, 'temp': 20, 'hud': 6, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 20, 'hud': 6, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":2,"temp":21,"hud":11,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":3,"temp":25,"hud":9,"device_name":"device_1"}
+received{'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":0,"temp":22,"hud":11,"device_name":"device_1"}
+received{'index': 0, 'temp': 22, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 22, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-25'}
+Received message : {"index":1,"temp":24,"hud":5,"device_name":"device_1"}
+received{'index': 1, 'temp': 24, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 24, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":3,"temp":23,"hud":8,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":0,"temp":25,"hud":15,"device_name":"device_1"}
+received{'index': 0, 'temp': 25, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 25, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-26'}
+Received message : {"index":1,"temp":26,"hud":14,"device_name":"device_1"}
+received{'index': 1, 'temp': 26, 'hud': 14, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 26, 'hud': 14, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":2,"temp":23,"hud":15,"device_name":"device_1"}
+received{'index': 2, 'temp': 23, 'hud': 15, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 23, 'hud': 15, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":3,"temp":26,"hud":8,"device_name":"device_1"}
+received{'index': 3, 'temp': 26, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 26, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":0,"temp":21,"hud":7,"device_name":"device_1"}
+received{'index': 0, 'temp': 21, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 21, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-27'}
+Received message : {"index":1,"temp":23,"hud":5,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":2,"temp":23,"hud":16,"device_name":"device_1"}
+received{'index': 2, 'temp': 23, 'hud': 16, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 23, 'hud': 16, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":3,"temp":25,"hud":9,"device_name":"device_1"}
+received{'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 25, 'hud': 9, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":0,"temp":20,"hud":8,"device_name":"device_1"}
+received{'index': 0, 'temp': 20, 'hud': 8, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 20, 'hud': 8, 'device_name': 'device_1', 'date': '2025-01-28'}
+Received message : {"index":1,"temp":23,"hud":4,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 4, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 4, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":2,"temp":24,"hud":5,"device_name":"device_1"}
+received{'index': 2, 'temp': 24, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 24, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":3,"temp":18,"hud":7,"device_name":"device_1"}
+received{'index': 3, 'temp': 18, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 18, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":0,"temp":17,"hud":5,"device_name":"device_1"}
+received{'index': 0, 'temp': 17, 'hud': 5, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 17, 'hud': 5, 'device_name': 'device_1', 'date': '2025-01-29'}
+Received message : {"index":1,"temp":23,"hud":7,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 7, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 7, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":2,"temp":21,"hud":4,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 4, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 4, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":3,"temp":22,"hud":23,"device_name":"device_1"}
+received{'index': 3, 'temp': 22, 'hud': 23, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 22, 'hud': 23, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":0,"temp":24,"hud":12,"device_name":"device_1"}
+received{'index': 0, 'temp': 24, 'hud': 12, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 0, 'temp': 24, 'hud': 12, 'device_name': 'device_1', 'date': '2025-01-30'}
+Received message : {"index":1,"temp":23,"hud":11,"device_name":"device_1"}
+received{'index': 1, 'temp': 23, 'hud': 11, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 1, 'temp': 23, 'hud': 11, 'device_name': 'device_1', 'date': '2025-01-31'}
+Received message : {"index":2,"temp":21,"hud":17,"device_name":"device_1"}
+received{'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 21, 'hud': 17, 'device_name': 'device_1', 'date': '2025-01-31'}
+Received message : {"index":3,"temp":23,"hud":18,"device_name":"device_1"}
+received{'index': 3, 'temp': 23, 'hud': 18, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 3, 'temp': 23, 'hud': 18, 'device_name': 'device_1', 'date': '2025-01-31'}
+Received message : {"index":2,"temp":19,"hud":26,"device_name":"device_1"}
+received{'index': 2, 'temp': 19, 'hud': 26, 'device_name': 'device_1'}
+Inserted data into MongoDB: {'index': 2, 'temp': 19, 'hud': 26, 'device_name': 'device_1', 'date': '2025-02-01'}
