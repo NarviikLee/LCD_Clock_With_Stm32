@@ -28,7 +28,7 @@ void setup_wifi() {
 void reconnect() {
   while (!client.connected()) {
     Serial.println("Connecting to MQTT...");
-    if (client.connect("ESP32Client", mqtt_user, mqtt_password)) {  // ID와 비밀번호 인증
+    if (client.connect("your_client_name", mqtt_user, mqtt_password)) {  // ID와 비밀번호 인증
       Serial.println("Connected to MQTT broker!");
     } else {
       Serial.print("Failed, rc=");
@@ -76,7 +76,7 @@ void loop() {
     serializeJson(jsonDoc, buffer);
 
     // MQTT 퍼블리시
-    client.publish("test/topic", buffer);
+    client.publish("your_topic", buffer);
     Serial.println("Published: " + String(buffer));
     delay(15000);
     digitalWrite(LED_GPIO, HIGH);
