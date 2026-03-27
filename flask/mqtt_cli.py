@@ -3,18 +3,25 @@ from pymongo import MongoClient
 from datetime import datetime
 import json
 import os # 환경 변수 사용 시 필요
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # --- 설정값 (Config) ---
-# 깃허브 업로드 시에는 아래처럼 가이드만 남겨두는 것이 좋습니다.
-broker = "YOUR_CLOUD_IP" 
-port = 1883 # 포트는 보통 숫자형태입니다.
-username = "YOUR_MQTT_USERNAME"
-password = "YOUR_MQTT_PASSWORD"
+# os.getenv("키이름", "기본값") 형태로 쓰면 더 안전합니다.
+broker = os.getenv('MQTT_broker')
+port = int(os.getenv('MQTT_port', 1883))  # ✨ int()로 형변환 필수!
+username = os.getenv('MQTT_username')
+password = os.getenv('MQTT_password')
 
-mongo_client = MongoClient("mongodb://YOUR_MONGO_IP:27017")
-db = mongo_client["your_db_name"]
-collection = db["your_collection_name"]
+# MongoDB 설정
+mongo_uri = os.getenv('MONGO_client')
+mongo_db = os.getenv('MONGO_db')
+mongo_col = os.getenv('MONGO_collection')
 
+mongo_client = MongoClient(mongo_uri)
+db = mongo_client[mongo_db]
+collection = db[mongo_col]
 # --- 콜백 함수 (Callbacks) ---
 def on_connect(client, userdata, flags, rc):
     if rc == 0:

@@ -1,0 +1,30 @@
+# --- Security ---
+.env
+secrets.h
+
+# --- Python (Flask) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# --- STM32 / C (Firmware) ---
+# 아까 수동으로 지우셨던 빌드 파일들이 다시 안 올라오게 막아줍니다.
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.elf
+*.list
+*.map
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
