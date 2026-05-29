@@ -87,9 +87,12 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 
 #### - 타이머 설정 및 타이머 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)
+
 <div align="center">
-  <iframe width="560" height="315" src="https://youtu.be/My2LXJMEGCo" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/My2LXJMEGCo" frameborder="0" allowfullscreen></iframe>
 </div>
+
+---
 
 
 
@@ -98,7 +101,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 #### - 초기에 날짜 및 시간 설정(time.h 라이브러리 기반 날짜 자동 업데이트)
 
 <div align="center">
-  <iframe width="560" height="315" src="https://youtu.be/QlxI2hfVMzQ" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qlxl2hfVMzQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
