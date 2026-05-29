@@ -79,9 +79,10 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ### 2. 알람 기능
 
 
-| <div align="center"><iframe width="200" height="150" src="https://youtu.be/_gEmBVgMpDI" frameborder="0" allowfullscreen></iframe><br>알람 시간 설정</div> | <div align="center"><iframe width="200" height="150" src="https://youtu.be/AXpCes0dbq0" frameborder="0" allowfullscreen></iframe><br>알람 시간시 부저 작동 및 종료</div> |
-|---|---|
+| :---: | :---: |
+| <iframe width="290" height="200" src="https://www.youtube.com/embed/_gEmBVgMpDI" frameborder="0" allowfullscreen></iframe> | <iframe width="290" height="200" src="https://www.youtube.com/embed/AXpCes0dbq0" frameborder="0" allowfullscreen></iframe> |
 
+---
 
 ### 3. 타이머 기능
 
@@ -103,7 +104,6 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 <div align="center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Qlxl2hfVMzQ" frameborder="0" allowfullscreen></iframe>
 </div>
-
 
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
 
