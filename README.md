@@ -78,7 +78,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 ### 2. 알람 기능
 
-
+| 알람 시간 설정 시연 | 부저 작동 및 내부 스위치 종료 시연 |
 | :---: | :---: |
 | <iframe width="290" height="200" src="https://www.youtube.com/embed/_gEmBVgMpDI" frameborder="0" allowfullscreen></iframe> | <iframe width="290" height="200" src="https://www.youtube.com/embed/AXpCes0dbq0" frameborder="0" allowfullscreen></iframe> |
 
@@ -96,7 +96,6 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ---
 
 
-
 ### 4. 날짜 및 시간 변경 기능
 
 #### - 초기에 날짜 및 시간 설정(time.h 라이브러리 기반 날짜 자동 업데이트)
@@ -105,6 +104,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Qlxl2hfVMzQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
+---
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
 
 #### - 하루에 특정시간(0시, 6시, 12시, 18시)에 온습도 데이터 서버 전송 및 DB 업데이트)
