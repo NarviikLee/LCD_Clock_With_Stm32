@@ -78,9 +78,9 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 ### 2. 알람 기능
 
-| 알람 시간 설정 시연 | 부저 작동 및 내부 스위치 종료 시연 |
+| 알람 시간 설정 | 알람 시간시 부저 작동 및 종료 |
 | :---: | :---: |
-| <iframe width="290" height="200" src="https://www.youtube.com/embed/_gEmBVgMpDI" frameborder="0" allowfullscreen></iframe> | <iframe width="290" height="200" src="https://www.youtube.com/embed/AXpCes0dbq0" frameborder="0" allowfullscreen></iframe> |
+| [![알람 설정](https://img.youtube.com/vi/_gEmBVgMpDI/0.jpg)](https://www.youtube.com/watch?v=_gEmBVgMpDI)<br>🔼 _클릭 시 시연 영상(유튜브)으로 이동_ | [![부저 작동](https://img.youtube.com/vi/AXpCes0dbq0/0.jpg)](https://www.youtube.com/watch?v=AXpCes0dbq0)<br>🔼 _클릭 시 시연 영상(유튜브)으로 이동_ |
 
 ---
 
