@@ -89,10 +89,9 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 #### - 타이머 설정 및 타이머 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)
 
-<div align="center">
-  [![타이머 기능](https://img.youtube.com/vi/My2LXJMEGCo/0.jpg)](https://www.youtube.com/watch?v=My2LXJMEGCo)<br>
-  🔼 <b>클릭 시 타이머 구동 시연 영상(유튜브)으로 이동</b>
-</div>
+| 타이머 구동 시연 |
+| :---: |
+| [![타이머 기능](https://img.youtube.com/vi/My2LXJMEGCo/0.jpg)](https://www.youtube.com/watch?v=My2LXJMEGCo)<br>🔼 _클릭 시 타이머 구동 시연 영상(유튜브)으로 이동_ |
 
 ---
 
@@ -100,10 +99,9 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 #### - 초기에 날짜 및 시간 설정(time.h 라이브러리 기반 날짜 자동 업데이트)
 
-<div align="center">
-  [![날짜 및 시간 설정](https://img.youtube.com/vi/Qlxl2hfVMzQ/0.jpg)](https://www.youtube.com/watch?v=Qlxl2hfVMzQ)<br>
-  🔼 <b>클릭 시 날짜/시간 설정 시연 영상(유튜브)으로 이동</b>
-</div>
+| 날짜/시간 설정 시연 |
+| :---: |
+| [![날짜 및 시간 설정](https://img.youtube.com/vi/Qlxl2hfVMzQ/0.jpg)](https://www.youtube.com/watch?v=Qlxl2hfVMzQ)<br>🔼 _클릭 시 날짜/시간 설정 시연 영상(유튜브)으로 이동_ |
 
 ---
 
