@@ -79,16 +79,17 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 ### 2. 알람 기능
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video>알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)</div>|
+| <div align="center"><iframe width="200" height="150" src="https://youtu.be/_gEmBVgMpDI" frameborder="0" allowfullscreen></iframe><br>알람 시간 설정</div> | <div align="center"><iframe width="200" height="150" src="https://youtu.be/AXpCes0dbq0" frameborder="0" allowfullscreen></iframe><br>알람 시간시 부저 작동 및 종료</div> |
 |---|---|
-
 
 
 ### 3. 타이머 기능
 
 
 #### - 타이머 설정 및 타이머 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)
-https://github.com/user-attachments/assets/a1fedf04-4a7d-40f4-89ef-b98247bda895
+<div align="center">
+  <iframe width="560" height="315" src="https://youtu.be/My2LXJMEGCo" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 
@@ -96,7 +97,9 @@ https://github.com/user-attachments/assets/a1fedf04-4a7d-40f4-89ef-b98247bda895
 
 #### - 초기에 날짜 및 시간 설정(time.h 라이브러리 기반 날짜 자동 업데이트)
 
-https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
+<div align="center">
+  <iframe width="560" height="315" src="https://youtu.be/QlxI2hfVMzQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
