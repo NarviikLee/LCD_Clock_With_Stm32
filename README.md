@@ -101,7 +101,7 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 | 날짜/시간 설정 시연 |
 | :---: |
-| [![날짜 및 시간 설정](https://img.youtube.com/vi/Qlxl2hfVMzQ/0.jpg)](https://www.youtube.com/watch?v=Qlxl2hfVMzQ)<br>🔼 _클릭 시 날짜/시간 설정 시연 영상(유튜브)으로 이동_ |
+| [![날짜 및 시간 설정](https://img.youtu.be/QlxI2hfVMzQ/0.jpg)](https://youtu.be/QlxI2hfVMzQ)<br>🔼 _클릭 시 날짜/시간 설정 시연 영상(유튜브)으로 이동_ |
 
 ---
 
