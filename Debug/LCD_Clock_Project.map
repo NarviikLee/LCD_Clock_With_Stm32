@@ -1607,197 +1607,197 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/ssd1306.o
  .debug_macro   0x0000000000000000       0x29 ./Core/Lib/Src/ssd1306.o
  .debug_macro   0x0000000000000000       0x23 ./Core/Lib/Src/ssd1306.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .group         0x0000000000000000        0xc ./Core/Lib/Src/subContorl.o
- .text          0x0000000000000000        0x0 ./Core/Lib/Src/subContorl.o
- .data          0x0000000000000000        0x0 ./Core/Lib/Src/subContorl.o
- .bss           0x0000000000000000        0x0 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0xa78 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x2a5 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x3b ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x8e ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x51 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x103 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x6a ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x1df ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0xd9 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000     0x12cd ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x11f ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x19 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000    0x15c67 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x6d ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000     0x3714 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x174 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x63 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000     0x1588 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x6c4 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x17e ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x115 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x1d8 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0xa5 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x24f ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x71 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x58 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x236 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x416 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x153 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x107 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x154 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x2c3 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x12 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x22c ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x61 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0xa5 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x12e ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x108 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x35 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x313 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x4c9 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0xd6 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0xa60 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x59 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x558 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x44 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x256 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0xba ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x14d ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x52 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x1e ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x3c ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x35 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x341 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x43 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x58 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x71 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x12a ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x52 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x52 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0xd5 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x3d ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x145 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000      0x154 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x35 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x20 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x29 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x23 ./Core/Lib/Src/subContorl.o
- .debug_macro   0x0000000000000000       0x28 ./Core/Lib/Src/subContorl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .group         0x0000000000000000        0xc ./Core/Lib/Src/subControl.o
+ .text          0x0000000000000000        0x0 ./Core/Lib/Src/subControl.o
+ .data          0x0000000000000000        0x0 ./Core/Lib/Src/subControl.o
+ .bss           0x0000000000000000        0x0 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0xa78 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x2a5 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x3b ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0xd9 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000     0x12cd ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x11f ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x19 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000    0x15c67 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000     0x3714 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x63 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000     0x1588 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x6c4 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x17e ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x115 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x1d8 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x24f ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x71 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x236 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x416 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x153 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x107 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x154 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x2c3 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x12 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x22c ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x61 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x12e ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x108 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x313 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x4c9 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0xd6 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0xa60 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x59 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x558 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x44 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x256 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0xba ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x14d ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x1e ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x341 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x43 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x58 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x71 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x12a ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x52 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0xd5 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x3d ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x145 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000      0x154 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x10 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x35 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x20 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x16 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x29 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x23 ./Core/Lib/Src/subControl.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/Lib/Src/subControl.o
  .group         0x0000000000000000        0xc ./Core/Lib/Src/timer_funs.o
  .group         0x0000000000000000        0xc ./Core/Lib/Src/timer_funs.o
  .group         0x0000000000000000        0xc ./Core/Lib/Src/timer_funs.o
@@ -7687,7 +7687,7 @@ LOAD ./Core/Lib/Src/esp32_dht11.o
 LOAD ./Core/Lib/Src/fonts.o
 LOAD ./Core/Lib/Src/lcd_menu.o
 LOAD ./Core/Lib/Src/ssd1306.o
-LOAD ./Core/Lib/Src/subContorl.o
+LOAD ./Core/Lib/Src/subControl.o
 LOAD ./Core/Lib/Src/timer_funs.o
 LOAD ./Core/Lib/Src/timer_mode.o
 LOAD ./Core/Src/alert_fs.o
@@ -7974,50 +7974,50 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
                 0x000000000800290c       0x3c ./Core/Lib/Src/ssd1306.o
                 0x000000000800290c                ssd1306_I2C_Write
  .text.handleButtonPress
-                0x0000000008002948       0x98 ./Core/Lib/Src/subContorl.o
+                0x0000000008002948       0x98 ./Core/Lib/Src/subControl.o
                 0x0000000008002948                handleButtonPress
  .text.processTimerMinute
-                0x00000000080029e0       0x2c ./Core/Lib/Src/subContorl.o
+                0x00000000080029e0       0x2c ./Core/Lib/Src/subControl.o
                 0x00000000080029e0                processTimerMinute
  .text.processTimerSecond
-                0x0000000008002a0c       0x2c ./Core/Lib/Src/subContorl.o
+                0x0000000008002a0c       0x2c ./Core/Lib/Src/subControl.o
                 0x0000000008002a0c                processTimerSecond
  .text.processTimerReview
-                0x0000000008002a38       0x44 ./Core/Lib/Src/subContorl.o
+                0x0000000008002a38       0x44 ./Core/Lib/Src/subControl.o
                 0x0000000008002a38                processTimerReview
  .text.processAlarmChangeCheck
-                0x0000000008002a7c       0x28 ./Core/Lib/Src/subContorl.o
+                0x0000000008002a7c       0x28 ./Core/Lib/Src/subControl.o
                 0x0000000008002a7c                processAlarmChangeCheck
  .text.processAlarmHour
-                0x0000000008002aa4       0x54 ./Core/Lib/Src/subContorl.o
+                0x0000000008002aa4       0x54 ./Core/Lib/Src/subControl.o
                 0x0000000008002aa4                processAlarmHour
  .text.processAlarmMinute
-                0x0000000008002af8       0x54 ./Core/Lib/Src/subContorl.o
+                0x0000000008002af8       0x54 ./Core/Lib/Src/subControl.o
                 0x0000000008002af8                processAlarmMinute
  .text.processAlarmReview
-                0x0000000008002b4c       0x18 ./Core/Lib/Src/subContorl.o
+                0x0000000008002b4c       0x18 ./Core/Lib/Src/subControl.o
                 0x0000000008002b4c                processAlarmReview
  .text.processAlarmFinalization
-                0x0000000008002b64       0x4c ./Core/Lib/Src/subContorl.o
+                0x0000000008002b64       0x4c ./Core/Lib/Src/subControl.o
                 0x0000000008002b64                processAlarmFinalization
  .text.processModifyCalender
-                0x0000000008002bb0       0x22 ./Core/Lib/Src/subContorl.o
+                0x0000000008002bb0       0x22 ./Core/Lib/Src/subControl.o
                 0x0000000008002bb0                processModifyCalender
  .text.processModifyCheck
-                0x0000000008002bd2       0x1c ./Core/Lib/Src/subContorl.o
+                0x0000000008002bd2       0x1c ./Core/Lib/Src/subControl.o
                 0x0000000008002bd2                processModifyCheck
  *fill*         0x0000000008002bee        0x2 
  .text.processModifyFinalization
-                0x0000000008002bf0       0x58 ./Core/Lib/Src/subContorl.o
+                0x0000000008002bf0       0x58 ./Core/Lib/Src/subControl.o
                 0x0000000008002bf0                processModifyFinalization
  .text.timer_Process
-                0x0000000008002c48       0x34 ./Core/Lib/Src/subContorl.o
+                0x0000000008002c48       0x34 ./Core/Lib/Src/subControl.o
                 0x0000000008002c48                timer_Process
  .text.alarm_Process
-                0x0000000008002c7c       0x6c ./Core/Lib/Src/subContorl.o
+                0x0000000008002c7c       0x6c ./Core/Lib/Src/subControl.o
                 0x0000000008002c7c                alarm_Process
  .text.modify_Process
-                0x0000000008002ce8       0x70 ./Core/Lib/Src/subContorl.o
+                0x0000000008002ce8       0x70 ./Core/Lib/Src/subControl.o
                 0x0000000008002ce8                modify_Process
  .text.init_timer_funs
                 0x0000000008002d58       0x28 ./Core/Lib/Src/timer_funs.o
@@ -9139,11 +9139,11 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .bss.SSD1306   0x0000000020000768        0x6 ./Core/Lib/Src/ssd1306.o
  *fill*         0x000000002000076e        0x2 
  .bss.t_Process_case
-                0x0000000020000770        0x4 ./Core/Lib/Src/subContorl.o
+                0x0000000020000770        0x4 ./Core/Lib/Src/subControl.o
  .bss.a_Process_case
-                0x0000000020000774        0x4 ./Core/Lib/Src/subContorl.o
+                0x0000000020000774        0x4 ./Core/Lib/Src/subControl.o
  .bss.m_Process_case
-                0x0000000020000778        0x4 ./Core/Lib/Src/subContorl.o
+                0x0000000020000778        0x4 ./Core/Lib/Src/subControl.o
  *fill*         0x000000002000077c        0x4 
  .bss.sec_con   0x0000000020000780        0x8 ./Core/Lib/Src/timer_funs.o
  .bss.current_time
@@ -9295,7 +9295,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .ARM.attributes
                 0x00000000000001f2       0x34 ./Core/Lib/Src/ssd1306.o
  .ARM.attributes
-                0x0000000000000226       0x34 ./Core/Lib/Src/subContorl.o
+                0x0000000000000226       0x34 ./Core/Lib/Src/subControl.o
  .ARM.attributes
                 0x000000000000025a       0x34 ./Core/Lib/Src/timer_funs.o
  .ARM.attributes
@@ -9508,7 +9508,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_info    0x0000000000002bbb      0x27a ./Core/Lib/Src/fonts.o
  .debug_info    0x0000000000002e35      0x886 ./Core/Lib/Src/lcd_menu.o
  .debug_info    0x00000000000036bb     0x118b ./Core/Lib/Src/ssd1306.o
- .debug_info    0x0000000000004846      0x4fa ./Core/Lib/Src/subContorl.o
+ .debug_info    0x0000000000004846      0x4fa ./Core/Lib/Src/subControl.o
  .debug_info    0x0000000000004d40      0x446 ./Core/Lib/Src/timer_funs.o
  .debug_info    0x0000000000005186      0x44c ./Core/Lib/Src/timer_mode.o
  .debug_info    0x00000000000055d2      0x7a9 ./Core/Src/alert_fs.o
@@ -9548,7 +9548,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_abbrev  0x0000000000000c04      0x111 ./Core/Lib/Src/fonts.o
  .debug_abbrev  0x0000000000000d15      0x226 ./Core/Lib/Src/lcd_menu.o
  .debug_abbrev  0x0000000000000f3b      0x303 ./Core/Lib/Src/ssd1306.o
- .debug_abbrev  0x000000000000123e      0x148 ./Core/Lib/Src/subContorl.o
+ .debug_abbrev  0x000000000000123e      0x148 ./Core/Lib/Src/subControl.o
  .debug_abbrev  0x0000000000001386      0x1b1 ./Core/Lib/Src/timer_funs.o
  .debug_abbrev  0x0000000000001537       0xb2 ./Core/Lib/Src/timer_mode.o
  .debug_abbrev  0x00000000000015e9      0x1e5 ./Core/Src/alert_fs.o
@@ -9598,7 +9598,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_aranges
                 0x00000000000002f8       0xf8 ./Core/Lib/Src/ssd1306.o
  .debug_aranges
-                0x00000000000003f0       0x90 ./Core/Lib/Src/subContorl.o
+                0x00000000000003f0       0x90 ./Core/Lib/Src/subControl.o
  .debug_aranges
                 0x0000000000000480       0x68 ./Core/Lib/Src/timer_funs.o
  .debug_aranges
@@ -9666,7 +9666,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_ranges  0x00000000000001d0       0x10 ./Core/Lib/Src/fonts.o
  .debug_ranges  0x00000000000001e0       0x98 ./Core/Lib/Src/lcd_menu.o
  .debug_ranges  0x0000000000000278       0xe8 ./Core/Lib/Src/ssd1306.o
- .debug_ranges  0x0000000000000360       0xb0 ./Core/Lib/Src/subContorl.o
+ .debug_ranges  0x0000000000000360       0xb0 ./Core/Lib/Src/subControl.o
  .debug_ranges  0x0000000000000410       0x58 ./Core/Lib/Src/timer_funs.o
  .debug_ranges  0x0000000000000468       0xd0 ./Core/Lib/Src/timer_mode.o
  .debug_ranges  0x0000000000000538       0x20 ./Core/Src/alert_fs.o
@@ -9805,7 +9805,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_macro   0x0000000000023e36       0x2e ./Core/Lib/Src/lcd_menu.o
  .debug_macro   0x0000000000023e64       0x10 ./Core/Lib/Src/lcd_menu.o
  .debug_macro   0x0000000000023e74      0x39b ./Core/Lib/Src/ssd1306.o
- .debug_macro   0x000000000002420f      0x4a9 ./Core/Lib/Src/subContorl.o
+ .debug_macro   0x000000000002420f      0x4a9 ./Core/Lib/Src/subControl.o
  .debug_macro   0x00000000000246b8      0x423 ./Core/Lib/Src/timer_funs.o
  .debug_macro   0x0000000000024adb      0x46a ./Core/Lib/Src/timer_mode.o
  .debug_macro   0x0000000000024f45      0x48b ./Core/Src/alert_fs.o
@@ -9857,7 +9857,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_line    0x000000000000470d      0x93e ./Core/Lib/Src/fonts.o
  .debug_line    0x000000000000504b      0xdec ./Core/Lib/Src/lcd_menu.o
  .debug_line    0x0000000000005e37     0x1112 ./Core/Lib/Src/ssd1306.o
- .debug_line    0x0000000000006f49      0xd1d ./Core/Lib/Src/subContorl.o
+ .debug_line    0x0000000000006f49      0xd1d ./Core/Lib/Src/subControl.o
  .debug_line    0x0000000000007c66      0xbd8 ./Core/Lib/Src/timer_funs.o
  .debug_line    0x000000000000883e      0xcb5 ./Core/Lib/Src/timer_mode.o
  .debug_line    0x00000000000094f3      0xaef ./Core/Src/alert_fs.o
@@ -9906,7 +9906,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
                                       0xe4a39 (size before relaxing)
  .debug_str     0x00000000000e56ad      0x70e ./Core/Lib/Src/ssd1306.o
                                       0xe3984 (size before relaxing)
- .debug_str     0x00000000000e5dbb      0x1af ./Core/Lib/Src/subContorl.o
+ .debug_str     0x00000000000e5dbb      0x1af ./Core/Lib/Src/subControl.o
                                       0xe4994 (size before relaxing)
  .debug_str     0x00000000000e5f6a       0xa4 ./Core/Lib/Src/timer_funs.o
                                       0xe464e (size before relaxing)
@@ -9976,7 +9976,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .comment       0x0000000000000050       0x51 ./Core/Lib/Src/fonts.o
  .comment       0x0000000000000050       0x51 ./Core/Lib/Src/lcd_menu.o
  .comment       0x0000000000000050       0x51 ./Core/Lib/Src/ssd1306.o
- .comment       0x0000000000000050       0x51 ./Core/Lib/Src/subContorl.o
+ .comment       0x0000000000000050       0x51 ./Core/Lib/Src/subControl.o
  .comment       0x0000000000000050       0x51 ./Core/Lib/Src/timer_funs.o
  .comment       0x0000000000000050       0x51 ./Core/Lib/Src/timer_mode.o
  .comment       0x0000000000000050       0x51 ./Core/Src/alert_fs.o
@@ -10015,7 +10015,7 @@ LOAD d:/stm32cubeide_1.9.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_frame   0x000000000000073c       0x38 ./Core/Lib/Src/fonts.o
  .debug_frame   0x0000000000000774      0x28c ./Core/Lib/Src/lcd_menu.o
  .debug_frame   0x0000000000000a00      0x414 ./Core/Lib/Src/ssd1306.o
- .debug_frame   0x0000000000000e14      0x1f0 ./Core/Lib/Src/subContorl.o
+ .debug_frame   0x0000000000000e14      0x1f0 ./Core/Lib/Src/subControl.o
  .debug_frame   0x0000000000001004      0x148 ./Core/Lib/Src/timer_funs.o
  .debug_frame   0x000000000000114c      0x394 ./Core/Lib/Src/timer_mode.o
  .debug_frame   0x00000000000014e0       0x7c ./Core/Src/alert_fs.o

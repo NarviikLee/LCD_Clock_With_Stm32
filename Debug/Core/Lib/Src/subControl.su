@@ -1,0 +1,15 @@
+../Core/Lib/Src/subControl.c:25:6:handleButtonPress	16	static
+../Core/Lib/Src/subControl.c:58:6:processTimerMinute	8	static
+../Core/Lib/Src/subControl.c:67:6:processTimerSecond	8	static
+../Core/Lib/Src/subControl.c:78:6:processTimerReview	8	static
+../Core/Lib/Src/subControl.c:96:6:processAlarmChangeCheck	8	static
+../Core/Lib/Src/subControl.c:107:6:processAlarmHour	24	static
+../Core/Lib/Src/subControl.c:123:6:processAlarmMinute	24	static
+../Core/Lib/Src/subControl.c:138:6:processAlarmReview	8	static
+../Core/Lib/Src/subControl.c:146:6:processAlarmFinalization	16	static
+../Core/Lib/Src/subControl.c:166:6:processModifyCalender	16	static
+../Core/Lib/Src/subControl.c:173:6:processModifyCheck	16	static
+../Core/Lib/Src/subControl.c:180:6:processModifyFinalization	24	static
+../Core/Lib/Src/subControl.c:191:6:timer_Process	8	static
+../Core/Lib/Src/subControl.c:205:6:alarm_Process	8	static
+../Core/Lib/Src/subControl.c:228:6:modify_Process	8	static

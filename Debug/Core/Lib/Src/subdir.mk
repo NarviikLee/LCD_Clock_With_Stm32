@@ -14,7 +14,7 @@ C_SRCS += \
 ../Core/Lib/Src/fonts.c \
 ../Core/Lib/Src/lcd_menu.c \
 ../Core/Lib/Src/ssd1306.c \
-../Core/Lib/Src/subContorl.c \
+../Core/Lib/Src/subControl.c \
 ../Core/Lib/Src/timer_funs.c \
 ../Core/Lib/Src/timer_mode.c 
 
@@ -28,7 +28,7 @@ OBJS += \
 ./Core/Lib/Src/fonts.o \
 ./Core/Lib/Src/lcd_menu.o \
 ./Core/Lib/Src/ssd1306.o \
-./Core/Lib/Src/subContorl.o \
+./Core/Lib/Src/subControl.o \
 ./Core/Lib/Src/timer_funs.o \
 ./Core/Lib/Src/timer_mode.o 
 
@@ -42,7 +42,7 @@ C_DEPS += \
 ./Core/Lib/Src/fonts.d \
 ./Core/Lib/Src/lcd_menu.d \
 ./Core/Lib/Src/ssd1306.d \
-./Core/Lib/Src/subContorl.d \
+./Core/Lib/Src/subControl.d \
 ./Core/Lib/Src/timer_funs.d \
 ./Core/Lib/Src/timer_mode.d 
 
@@ -54,7 +54,7 @@ Core/Lib/Src/%.o Core/Lib/Src/%.su: ../Core/Lib/Src/%.c Core/Lib/Src/subdir.mk
 clean: clean-Core-2f-Lib-2f-Src
 
 clean-Core-2f-Lib-2f-Src:
-	-$(RM) ./Core/Lib/Src/Potentiometer.d ./Core/Lib/Src/Potentiometer.o ./Core/Lib/Src/Potentiometer.su ./Core/Lib/Src/RTC_Functions.d ./Core/Lib/Src/RTC_Functions.o ./Core/Lib/Src/RTC_Functions.su ./Core/Lib/Src/button_control.d ./Core/Lib/Src/button_control.o ./Core/Lib/Src/button_control.su ./Core/Lib/Src/dht11.d ./Core/Lib/Src/dht11.o ./Core/Lib/Src/dht11.su ./Core/Lib/Src/ds1302.d ./Core/Lib/Src/ds1302.o ./Core/Lib/Src/ds1302.su ./Core/Lib/Src/esp32_dht11.d ./Core/Lib/Src/esp32_dht11.o ./Core/Lib/Src/esp32_dht11.su ./Core/Lib/Src/fonts.d ./Core/Lib/Src/fonts.o ./Core/Lib/Src/fonts.su ./Core/Lib/Src/lcd_menu.d ./Core/Lib/Src/lcd_menu.o ./Core/Lib/Src/lcd_menu.su ./Core/Lib/Src/ssd1306.d ./Core/Lib/Src/ssd1306.o ./Core/Lib/Src/ssd1306.su ./Core/Lib/Src/subContorl.d ./Core/Lib/Src/subContorl.o ./Core/Lib/Src/subContorl.su ./Core/Lib/Src/timer_funs.d ./Core/Lib/Src/timer_funs.o ./Core/Lib/Src/timer_funs.su ./Core/Lib/Src/timer_mode.d ./Core/Lib/Src/timer_mode.o ./Core/Lib/Src/timer_mode.su
+	-$(RM) ./Core/Lib/Src/Potentiometer.d ./Core/Lib/Src/Potentiometer.o ./Core/Lib/Src/Potentiometer.su ./Core/Lib/Src/RTC_Functions.d ./Core/Lib/Src/RTC_Functions.o ./Core/Lib/Src/RTC_Functions.su ./Core/Lib/Src/button_control.d ./Core/Lib/Src/button_control.o ./Core/Lib/Src/button_control.su ./Core/Lib/Src/dht11.d ./Core/Lib/Src/dht11.o ./Core/Lib/Src/dht11.su ./Core/Lib/Src/ds1302.d ./Core/Lib/Src/ds1302.o ./Core/Lib/Src/ds1302.su ./Core/Lib/Src/esp32_dht11.d ./Core/Lib/Src/esp32_dht11.o ./Core/Lib/Src/esp32_dht11.su ./Core/Lib/Src/fonts.d ./Core/Lib/Src/fonts.o ./Core/Lib/Src/fonts.su ./Core/Lib/Src/lcd_menu.d ./Core/Lib/Src/lcd_menu.o ./Core/Lib/Src/lcd_menu.su ./Core/Lib/Src/ssd1306.d ./Core/Lib/Src/ssd1306.o ./Core/Lib/Src/ssd1306.su ./Core/Lib/Src/subControl.d ./Core/Lib/Src/subControl.o ./Core/Lib/Src/subControl.su ./Core/Lib/Src/timer_funs.d ./Core/Lib/Src/timer_funs.o ./Core/Lib/Src/timer_funs.su ./Core/Lib/Src/timer_mode.d ./Core/Lib/Src/timer_mode.o ./Core/Lib/Src/timer_mode.su
 
 .PHONY: clean-Core-2f-Lib-2f-Src
 

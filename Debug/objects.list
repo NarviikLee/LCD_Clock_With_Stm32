@@ -7,7 +7,7 @@
 "./Core/Lib/Src/fonts.o"
 "./Core/Lib/Src/lcd_menu.o"
 "./Core/Lib/Src/ssd1306.o"
-"./Core/Lib/Src/subContorl.o"
+"./Core/Lib/Src/subControl.o"
 "./Core/Lib/Src/timer_funs.o"
 "./Core/Lib/Src/timer_mode.o"
 "./Core/Src/alert_fs.o"
