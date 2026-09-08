@@ -1,0 +1,5 @@
+firmware/Debug/
+flask/__pycache__/
+*.o
+*.elf
+*.su

@@ -55,44 +55,61 @@ LCD 디스플레이 라디오를 보고 "한번 만들어볼까" 라는 막연�
 
 
 
+### 프로젝트 구조 (Project Structure)
+
+```text
+.
+├── arduino/           # ESP32 MQTT & Wi-Fi Bridge (데이터 중계)
+├── firmware/          # STM32 Main Control Logic (HAL 기반 메인 로직)
+│   ├── Core/Lib/      # 디바이스 드라이버 (DHT11, SSD1306, DS1302 등)
+│   └── Core/Src/      # 인터럽트 핸들러 및 타이머 제어 로직
+├── flask/             # Oracle Cloud 기반 백엔드 및 모니터링 대시보드
+└── images/            # 기능 시연 GIF 및 시스템 하드웨어 구성도
+```
 
 ## 구현 기능
 
 ### 1. 시간 및 온 습도 디스플레이
 
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/00f38aab-9c69-441e-afb8-43a4f67ad1b1" width="200" controls></video><br>실시간 시간 변화 및 이전 시간 유지(RTC_DS1302 사용)</div> | <div align="center"><video src="https://github.com/user-attachments/assets/cd414bf6-044e-4998-a5cd-f6cd16bd523e" width="200" controls></video><br>메뉴 변경(보드 자체 버튼 및 외부 버튼 인터럽트)</div> |
-|---|---|
-
+| ![이미지1](./images/시간유지및_디스플레이.gif) | ![이미지2](./images/메뉴_화면.gif) |
+| :---: | :---: |
+| **실시간 시간 변화 및 이전 시간 유지** | **메뉴 변경(버튼 인터럽트 활용)** |
 
 ### 2. 알람 기능
 
+| 알람 시간 설정 | 알람 시간시 부저 작동 및 종료 |
+| :---: | :---: |
+| [![알람 설정](https://img.youtube.com/vi/_gEmBVgMpDI/0.jpg)](https://www.youtube.com/watch?v=_gEmBVgMpDI)<br>🔼 _클릭 시 시연 영상(유튜브)으로 이동_ | [![부저 작동](https://img.youtube.com/vi/AXpCes0dbq0/0.jpg)](https://www.youtube.com/watch?v=AXpCes0dbq0)<br>🔼 _클릭 시 시연 영상(유튜브)으로 이동_ |
 
-| <div align="center"><video src="https://github.com/user-attachments/assets/6e7b8945-9393-4358-a77d-e7966be5a958" width="200" controls></video><br>알람 시간 설정</div> | <div align="center"><video src="https://github.com/user-attachments/assets/8eb108ee-4683-4b23-9234-9c692538e95f" width="200" controls></video><br>알람 시간시 부저 작동 및 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)</div> |
-|---|---|
-
-
+---
 
 ### 3. 타이머 기능
 
 
 #### - 타이머 설정 및 타이머 종료(LCD 디스플레이 및 내부 스위치를 통한 타이머 부저 종료)
-https://github.com/user-attachments/assets/a1fedf04-4a7d-40f4-89ef-b98247bda895
 
+| 타이머 구동 시연 |
+| :---: |
+| [![타이머 기능](https://img.youtube.com/vi/My2LXJMEGCo/0.jpg)](https://www.youtube.com/watch?v=My2LXJMEGCo)<br>🔼 _클릭 시 타이머 구동 시연 영상(유튜브)으로 이동_ |
 
+---
 
 ### 4. 날짜 및 시간 변경 기능
 
 #### - 초기에 날짜 및 시간 설정(time.h 라이브러리 기반 날짜 자동 업데이트)
 
-https://github.com/user-attachments/assets/25368d83-5319-44fb-b22b-696598ec7078
-
+| 날짜/시간 설정 시연 |
+| :---: |
+| [![날짜 및 시간 설정](https://img.youtube.com/vi/QlxI2hfVMzQ/hqdefault.jpg)](https://www.youtube.com/watch?v=QlxI2hfVMzQ)<br>🔼 _클릭 시 날짜/시간 설정 시연 영상(유튜브)으로 이동_ |
+---
 
 ### 5. 특정 시간 마다 온 습도 정보 서버 전송
 
 #### - 하루에 특정시간(0시, 6시, 12시, 18시)에 온습도 데이터 서버 전송 및 DB 업데이트)
-| <div align="center"><video src="https://github.com/user-attachments/assets/d97ce4f8-9a25-4d57-8c12-def4afa96cc4" width="200" controls></video><br>Mysql_데이터 업데이트</div> | <div align="center"><video src="https://github.com/user-attachments/assets/643c24d7-ad0f-40ee-8983-4c18007d529f" width="200" controls></video><br>mqtt_통신기반_온습도_업데이트</div> |
-|---|---|
+| ![이미지1](./images/온습도_업데이트.gif) | ![이미지2](./images/Mqtt_업데이트_확인.gif) |
+| :---: | :---: |
+| **Mysql_데이터 업데이트** | **mqtt_통신기반_온습도_업데이트** |
 
 
 ## 참고 블로그 및 영상강의

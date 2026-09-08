@@ -1,8 +1,0 @@
-../Core/Lib/Src/Potentiometer.c:37:6:init_PotentioMeter	16	static
-../Core/Lib/Src/Potentiometer.c:42:5:mapping_adc	24	static
-../Core/Lib/Src/Potentiometer.c:49:6:set_Hour	8	static
-../Core/Lib/Src/Potentiometer.c:68:6:set_Minute	8	static
-../Core/Lib/Src/Potentiometer.c:87:6:set_Second	8	static
-../Core/Lib/Src/Potentiometer.c:101:6:set_Calender	24	static
-../Core/Lib/Src/Potentiometer.c:126:6:cal_Second	16	static
-../Core/Lib/Src/Potentiometer.c:137:6:update_timer	4	static

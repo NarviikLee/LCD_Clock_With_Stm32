@@ -1,0 +1,79 @@
+import paho.mqtt.client as mqtt
+from pymongo import MongoClient
+from datetime import datetime
+import json
+import os # 환경 변수 사용 시 필요
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# --- 설정값 (Config) ---
+# os.getenv("키이름", "기본값") 형태로 쓰면 더 안전합니다.
+broker = os.getenv('MQTT_broker')
+port = int(os.getenv('MQTT_port', 1883))  # ✨ int()로 형변환 필수!
+username = os.getenv('MQTT_username')
+password = os.getenv('MQTT_password')
+
+# MongoDB 설정
+mongo_uri = os.getenv('MONGO_client')
+mongo_db = os.getenv('MONGO_db')
+mongo_col = os.getenv('MONGO_collection')
+
+mongo_client = MongoClient(mongo_uri)
+db = mongo_client[mongo_db]
+collection = db[mongo_col]
+# --- 콜백 함수 (Callbacks) ---
+def on_connect(client, userdata, flags, rc):
+    if rc == 0:
+        print(" MQTT 브로커 연결 성공!")
+        client.subscribe("your/topic/here") # 구독할 토픽 설정
+    else:
+        print(f" 연결 실패 (결과 코드: {rc})")
+
+def on_message(client, userdata, msg):
+    try:
+        payload = msg.payload.decode()
+        print(f"📩 메시지 수신: {payload}")
+        
+        data = json.loads(payload)
+        
+        # 필수 키 검증 (실제 데이터 구조에 맞게 수정하세요)
+        required_keys = {"device_name", "temp", "hud", "index"}
+        if not required_keys.issubset(data.keys()):
+            print(f" 유효하지 않은 포맷: {payload}")
+            return
+
+        # 날짜 데이터 생성 (주석 풀고 활성화)
+        current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        # MongoDB 업데이트 (upsert=True로 장치가 없으면 자동 생성)
+        collection.update_one(
+            {"device_name": data["device_name"]},
+            {
+                "$push": {
+                    "records": {
+                        "date": current_date,
+                        "index": data["index"],
+                        "temperature": data["temp"],
+                        "humidity": data["hud"],
+                    }
+                }
+            },
+            upsert=True
+        )
+        print(f"DB 저장 완료: {data['device_name']}")
+
+    except Exception as e:
+        print(f" 메시지 처리 중 오류 발생: {e}")
+
+# --- 실행부 (Main) ---
+client = mqtt.Client()
+client.username_pw_set(username, password)
+client.on_connect = on_connect
+client.on_message = on_message
+
+print("⏳ 브로커 연결 시도 중...")
+client.connect(broker, port, 60)
+
+# 백그라운드에서 계속 실행
+client.loop_forever()
